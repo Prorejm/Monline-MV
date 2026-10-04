@@ -1,0 +1,2460 @@
+{
+ "zones": {
+  "A": "Forest Zone",
+  "B": "Coastal Zone",
+  "C": "Demon Zone",
+  "D": "Desolate Zone",
+  "E": "Desert Zone",
+  "F": "Mythic Zone"
+ },
+ "endings": [
+  {
+   "code": "A1",
+   "zone": "A",
+   "sw": 901,
+   "name": "Liar Liar",
+   "wiki": "",
+   "trig": "Lie to the mansion owner"
+  },
+  {
+   "code": "A2",
+   "zone": "A",
+   "sw": 902,
+   "name": "Addiction",
+   "wiki": "",
+   "trig": "Lose to the Holstaurus"
+  },
+  {
+   "code": "A3",
+   "zone": "A",
+   "sw": 903,
+   "name": "Honey Trap",
+   "wiki": "",
+   "trig": "Lose to a Honey Bee"
+  },
+  {
+   "code": "A4",
+   "zone": "A",
+   "sw": 904,
+   "name": "A True Honor",
+   "wiki": "",
+   "trig": "Lose to a Hornet"
+  },
+  {
+   "code": "A5",
+   "zone": "A",
+   "sw": 905,
+   "name": "Absolute Power",
+   "wiki": "",
+   "trig": "Lose to Arachne"
+  },
+  {
+   "code": "A6",
+   "zone": "A",
+   "sw": 906,
+   "name": "Slice of life",
+   "wiki": "",
+   "trig": "Eat the Cheese"
+  },
+  {
+   "code": "A7",
+   "zone": "A",
+   "sw": 907,
+   "name": "Fluid Hunt",
+   "wiki": "",
+   "trig": "Lose to the Slime"
+  },
+  {
+   "code": "A8",
+   "zone": "A",
+   "sw": 1023,
+   "name": "Stay Awhile and Listen",
+   "wiki": "",
+   "trig": "Exhaust all the questions for the tutorial girl"
+  },
+  {
+   "code": "A9",
+   "zone": "A",
+   "sw": 1024,
+   "name": "Hooters",
+   "wiki": "",
+   "trig": "Lose to the Owl Mage"
+  },
+  {
+   "code": "A10",
+   "zone": "A",
+   "sw": 1041,
+   "name": "A Ribbiting Existence",
+   "wiki": "",
+   "trig": "Lose to a Giant Frog"
+  },
+  {
+   "code": "A11",
+   "zone": "A",
+   "sw": 1042,
+   "name": "Sweet Behind",
+   "wiki": "",
+   "trig": "Lose to the Pollen Drunk Honey Bee"
+  },
+  {
+   "code": "A12",
+   "zone": "A",
+   "sw": 1044,
+   "name": "Pillars to the Temple",
+   "wiki": "",
+   "trig": "Lose to the Greenworm"
+  },
+  {
+   "code": "A13",
+   "zone": "A",
+   "sw": 1081,
+   "name": "A Cat is Fine Too",
+   "wiki": "",
+   "trig": "Lose to Mr. Minoh"
+  },
+  {
+   "code": "A14",
+   "zone": "A",
+   "sw": 1082,
+   "name": "Cat Called",
+   "wiki": "",
+   "trig": "Go upstairs as a blonde catgirl"
+  },
+  {
+   "code": "A15",
+   "zone": "A",
+   "sw": 1083,
+   "name": "Feline Fine",
+   "wiki": "",
+   "trig": "Go upstairs as a brunette catgirl"
+  },
+  {
+   "code": "A16",
+   "zone": "A",
+   "sw": 1084,
+   "name": "Heavy Petting",
+   "wiki": "",
+   "trig": "Give in to the collar as a blonde catgirl"
+  },
+  {
+   "code": "A17",
+   "zone": "A",
+   "sw": 1085,
+   "name": "The Cat's Meow",
+   "wiki": "",
+   "trig": "Give in to the collar as a brunette catgirl"
+  },
+  {
+   "code": "B1",
+   "zone": "B",
+   "sw": 908,
+   "name": "The Littlest Mermaid",
+   "wiki": "",
+   "trig": "Lose to a Mermaid"
+  },
+  {
+   "code": "B2",
+   "zone": "B",
+   "sw": 1017,
+   "name": "Beneath the Light",
+   "wiki": "",
+   "trig": "Lose to a Sea Goddess' Priestess"
+  },
+  {
+   "code": "B3",
+   "zone": "B",
+   "sw": 909,
+   "name": "'Under da Sea'",
+   "wiki": "",
+   "trig": "Wear the Red Beret"
+  },
+  {
+   "code": "B4",
+   "zone": "B",
+   "sw": 910,
+   "name": "Plenty of Fish in the Sea",
+   "wiki": "",
+   "trig": "Lose to the Sea Bishop as male"
+  },
+  {
+   "code": "B5",
+   "zone": "B",
+   "sw": 1020,
+   "name": "The Catch of a Lifetime",
+   "wiki": "",
+   "trig": "Lose to the Sea Bishop as a mermaid"
+  },
+  {
+   "code": "B6",
+   "zone": "B",
+   "sw": 911,
+   "name": "Charybdis Chow",
+   "wiki": "",
+   "trig": "Lose to Charybdis"
+  },
+  {
+   "code": "B7",
+   "zone": "B",
+   "sw": 912,
+   "name": "Boredom",
+   "wiki": "",
+   "trig": "Lose to Scylla as male"
+  },
+  {
+   "code": "B8",
+   "zone": "B",
+   "sw": 1019,
+   "name": "Outlet of Love",
+   "wiki": "",
+   "trig": "Lose to Scylla as a mermaid"
+  },
+  {
+   "code": "B9",
+   "zone": "B",
+   "sw": 913,
+   "name": "Deep Dark Depths",
+   "wiki": "",
+   "trig": "Lose to the Kraken as male, and accept her offer"
+  },
+  {
+   "code": "B10",
+   "zone": "B",
+   "sw": 914,
+   "name": "Die with Dignity?",
+   "wiki": "",
+   "trig": "Lose to the Kraken as male, and decline her offer"
+  },
+  {
+   "code": "B11",
+   "zone": "B",
+   "sw": 1021,
+   "name": "The Saviour",
+   "wiki": "",
+   "trig": "Lose to the Kraken as a mermaid"
+  },
+  {
+   "code": "B12",
+   "zone": "B",
+   "sw": 915,
+   "name": "Magic Cucumber",
+   "wiki": "",
+   "trig": "Lose to a Kappa"
+  },
+  {
+   "code": "B13",
+   "zone": "B",
+   "sw": 1018,
+   "name": "Kappativated",
+   "wiki": "",
+   "trig": "Lose to a Kappa in the Nereid Cave"
+  },
+  {
+   "code": "B14",
+   "zone": "B",
+   "sw": 916,
+   "name": "One Track Mind",
+   "wiki": "",
+   "trig": "Lose to a Sahaguin"
+  },
+  {
+   "code": "B15",
+   "zone": "B",
+   "sw": 917,
+   "name": "Sisters in Crime",
+   "wiki": "",
+   "trig": "Lose to the Nereid"
+  },
+  {
+   "code": "B16",
+   "zone": "B",
+   "sw": 918,
+   "name": "Backup Singer",
+   "wiki": "",
+   "trig": "Lose to the Siren"
+  },
+  {
+   "code": "B17",
+   "zone": "B",
+   "sw": 919,
+   "name": "Flow Rider",
+   "wiki": "",
+   "trig": "Lose to the Sea Slime"
+  },
+  {
+   "code": "B18",
+   "zone": "B",
+   "sw": 1034,
+   "name": "A Clean Slate",
+   "wiki": "",
+   "trig": "Lose to the Crab Girl"
+  },
+  {
+   "code": "B19",
+   "zone": "B",
+   "sw": 1035,
+   "name": "Coconut Grass",
+   "wiki": "",
+   "trig": "Drink the Bahama Mama"
+  },
+  {
+   "code": "B20",
+   "zone": "B",
+   "sw": 1038,
+   "name": "Humans is Stupid",
+   "wiki": "",
+   "trig": "Lose to a Sahaguin Raider"
+  },
+  {
+   "code": "B21",
+   "zone": "B",
+   "sw": 1039,
+   "name": "Saltwater Sweetie",
+   "wiki": "",
+   "trig": "Lose to the Flow Kelp"
+  },
+  {
+   "code": "B22",
+   "zone": "B",
+   "sw": 1040,
+   "name": "Love Beneath the Gaslight",
+   "wiki": "",
+   "trig": "Lose to the Human Raider"
+  },
+  {
+   "code": "B23",
+   "zone": "B",
+   "sw": 1043,
+   "name": "Physician, H-Eel Thyself",
+   "wiki": "",
+   "trig": "Lose to the Raider Leader"
+  },
+  {
+   "code": "C1",
+   "zone": "C",
+   "sw": 920,
+   "name": "Impressive",
+   "wiki": "",
+   "trig": "Lose to an Imp"
+  },
+  {
+   "code": "C2",
+   "zone": "C",
+   "sw": 921,
+   "name": "Imprisioned",
+   "wiki": "Imprisoned",
+   "trig": "Lose to the Arch Imp"
+  },
+  {
+   "code": "C3",
+   "zone": "C",
+   "sw": 922,
+   "name": "Good Impression",
+   "wiki": "",
+   "trig": "Accept the head Imp's offer after beating the Arch Imp when the kidnapped man has been transformed"
+  },
+  {
+   "code": "C4",
+   "zone": "C",
+   "sw": 1022,
+   "name": "Predator's Prey",
+   "wiki": "",
+   "trig": "Lose to a Warden Succubus"
+  },
+  {
+   "code": "C5",
+   "zone": "C",
+   "sw": 923,
+   "name": "What a Tool",
+   "wiki": "",
+   "trig": "Lose to the Lesser Succubus"
+  },
+  {
+   "code": "C6",
+   "zone": "C",
+   "sw": 924,
+   "name": "Every Suck You Take",
+   "wiki": "",
+   "trig": "Lose to the Pigtail Succubus"
+  },
+  {
+   "code": "C7",
+   "zone": "C",
+   "sw": 925,
+   "name": "Self Made King",
+   "wiki": "",
+   "trig": "Lose to a Succubus"
+  },
+  {
+   "code": "C8",
+   "zone": "C",
+   "sw": 926,
+   "name": "Pipe Dreams of Wet Dreams",
+   "wiki": "",
+   "trig": "Lose to Amarya as male"
+  },
+  {
+   "code": "C9",
+   "zone": "C",
+   "sw": 927,
+   "name": "Banana Split",
+   "wiki": "",
+   "trig": "Use 'split' as female"
+  },
+  {
+   "code": "C10",
+   "zone": "C",
+   "sw": 1025,
+   "name": "Head Hunting",
+   "wiki": "",
+   "trig": "Let the lust meter overflow three times as female"
+  },
+  {
+   "code": "C11",
+   "zone": "C",
+   "sw": 1026,
+   "name": "Reroll",
+   "wiki": "",
+   "trig": "Lose to Amarya as female"
+  },
+  {
+   "code": "C12",
+   "zone": "C",
+   "sw": 1027,
+   "name": "Filled with Faith",
+   "wiki": "",
+   "trig": "Lose to a Corrupted Nun"
+  },
+  {
+   "code": "C13",
+   "zone": "C",
+   "sw": 931,
+   "name": "Keeper of Confessions",
+   "wiki": "",
+   "trig": "Lose to the Dark Priest"
+  },
+  {
+   "code": "C14",
+   "zone": "C",
+   "sw": 1036,
+   "name": "The Flower Clad in Black",
+   "wiki": "",
+   "trig": "Lose to the Roper"
+  },
+  {
+   "code": "C15",
+   "zone": "C",
+   "sw": 932,
+   "name": "Resistance is Futile",
+   "wiki": "",
+   "trig": "Lose to Chastity"
+  },
+  {
+   "code": "C16",
+   "zone": "C",
+   "sw": 928,
+   "name": "Heaven on Earth",
+   "wiki": "",
+   "trig": "Lose to Sonia's Eternal Judgement"
+  },
+  {
+   "code": "C17",
+   "zone": "C",
+   "sw": 929,
+   "name": "Hell is Other People",
+   "wiki": "",
+   "trig": "Lose to Gaia's Eternal Punishment"
+  },
+  {
+   "code": "C18",
+   "zone": "C",
+   "sw": 930,
+   "name": "Bridging the Gap",
+   "wiki": "",
+   "trig": "Lose to the Twins in any other way"
+  },
+  {
+   "code": "C19",
+   "zone": "C",
+   "sw": 1028,
+   "name": "Like no one ever was",
+   "wiki": "",
+   "trig": "Enter the mirror and approach the paladins"
+  },
+  {
+   "code": "C20",
+   "zone": "C",
+   "sw": 933,
+   "name": "Ambience",
+   "wiki": "",
+   "trig": "Use the piano"
+  },
+  {
+   "code": "C21",
+   "zone": "C",
+   "sw": 936,
+   "name": "Poster Girl",
+   "wiki": "",
+   "trig": "Lose to a Witch and say \"Do I?\""
+  },
+  {
+   "code": "C22",
+   "zone": "C",
+   "sw": 937,
+   "name": "Broom Rider",
+   "wiki": "",
+   "trig": "Lose to a Witch and say \"No!\""
+  },
+  {
+   "code": "C23",
+   "zone": "C",
+   "sw": 934,
+   "name": "Attack of the Living Dildo!",
+   "wiki": "Attack of the Living Dildo",
+   "trig": "Check Baphomet's wardrobe and fail the QTE"
+  },
+  {
+   "code": "C24",
+   "zone": "C",
+   "sw": 935,
+   "name": "On the Flipside",
+   "wiki": "",
+   "trig": "Enter the mirror and drink the Weakening Potion twice"
+  },
+  {
+   "code": "C25",
+   "zone": "C",
+   "sw": 938,
+   "name": "Baphomet's Boytoy",
+   "wiki": "Baphomet’s Boytoy",
+   "trig": "Drink the Weakening Potion twice, or let the timer run out"
+  },
+  {
+   "code": "C26",
+   "zone": "C",
+   "sw": 1029,
+   "name": "In the Driver's Seat",
+   "wiki": "Life in the Driver’s Seat",
+   "trig": "Lose to Baphomet and pass the QTE"
+  },
+  {
+   "code": "C27",
+   "zone": "C",
+   "sw": 1030,
+   "name": "Backseat Driver",
+   "wiki": "",
+   "trig": "Lose to Baphomet and fail the QTE"
+  },
+  {
+   "code": "C28",
+   "zone": "C",
+   "sw": 940,
+   "name": "Na na na na na na na na Were-Bat!",
+   "wiki": "",
+   "trig": "Lose to a Were-Bat"
+  },
+  {
+   "code": "C29",
+   "zone": "C",
+   "sw": 939,
+   "name": "Snap Trapper",
+   "wiki": "",
+   "trig": "Fail the alligator QTE"
+  },
+  {
+   "code": "C30",
+   "zone": "C",
+   "sw": 1031,
+   "name": "Gator Gangbanger",
+   "wiki": "",
+   "trig": "Lose to the Stranger"
+  },
+  {
+   "code": "C31",
+   "zone": "C",
+   "sw": 941,
+   "name": "Once Bitten",
+   "wiki": "",
+   "trig": "Lose to a Dhampir"
+  },
+  {
+   "code": "C32",
+   "zone": "C",
+   "sw": 942,
+   "name": "Pale Maiden",
+   "wiki": "",
+   "trig": "Lose to Aralu"
+  },
+  {
+   "code": "C33",
+   "zone": "C",
+   "sw": 943,
+   "name": "Drowned Regret",
+   "wiki": "",
+   "trig": "Lose to Draculara and enter Amarya's chambers"
+  },
+  {
+   "code": "C34",
+   "zone": "C",
+   "sw": 1032,
+   "name": "Her Legacy",
+   "wiki": "",
+   "trig": "Lose to Draculara and enter Aralu's chambers"
+  },
+  {
+   "code": "C35",
+   "zone": "C",
+   "sw": 1033,
+   "name": "Blue Blooded",
+   "wiki": "",
+   "trig": "Lose to Draculara and enter her throneroom"
+  },
+  {
+   "code": "C36",
+   "zone": "C",
+   "sw": 944,
+   "name": "In Control",
+   "wiki": "",
+   "trig": "Lose to the Dark Slime"
+  },
+  {
+   "code": "C37",
+   "zone": "C",
+   "sw": 1037,
+   "name": "A Tale as Old as Time",
+   "wiki": "Tale as Old As Time",
+   "trig": "Fail at sorting the books 4 times"
+  },
+  {
+   "code": "C38",
+   "zone": "C",
+   "sw": 1045,
+   "name": "Love Bitten",
+   "wiki": "",
+   "trig": "Lose to a Mosquito"
+  },
+  {
+   "code": "D1",
+   "zone": "D",
+   "sw": 945,
+   "name": "The Zombie Whored",
+   "wiki": "",
+   "trig": "Fail to escape the zombies"
+  },
+  {
+   "code": "D2",
+   "zone": "D",
+   "sw": 946,
+   "name": "From My Cold Dead Hands",
+   "wiki": "",
+   "trig": "Lose to a Zombie on the Streets"
+  },
+  {
+   "code": "D3",
+   "zone": "D",
+   "sw": 947,
+   "name": "Let Me Patch You Up",
+   "wiki": "",
+   "trig": "Enter the lab in the Hospital as a nurse"
+  },
+  {
+   "code": "D4",
+   "zone": "D",
+   "sw": 948,
+   "name": "Quest for the Cure",
+   "wiki": "",
+   "trig": "Lose to a Zombie in the Hospital"
+  },
+  {
+   "code": "D5",
+   "zone": "D",
+   "sw": 949,
+   "name": "Drop Dead Gorgeous",
+   "wiki": "",
+   "trig": "Lose to a Zombie in the Mall"
+  },
+  {
+   "code": "D6",
+   "zone": "D",
+   "sw": 950,
+   "name": "Till Death Do Us Part",
+   "wiki": "",
+   "trig": "Lose to a Zombie in the Old Church"
+  },
+  {
+   "code": "D7",
+   "zone": "D",
+   "sw": 951,
+   "name": "Burger Baroness",
+   "wiki": "",
+   "trig": "Order the Super Special in the Mall"
+  },
+  {
+   "code": "D8",
+   "zone": "D",
+   "sw": 952,
+   "name": "All better now?",
+   "wiki": "",
+   "trig": "Use the shower on the Hospital's 3rd floor"
+  },
+  {
+   "code": "D9",
+   "zone": "D",
+   "sw": 953,
+   "name": "Bisexual Healing",
+   "wiki": "",
+   "trig": "Use the shower on the Hospital's 3rd floor with Kim in the party"
+  },
+  {
+   "code": "D10",
+   "zone": "D",
+   "sw": 954,
+   "name": "Squeaky Wheel Needs Grease",
+   "wiki": "",
+   "trig": "Get caught in the Wheelchair Event"
+  },
+  {
+   "code": "D11",
+   "zone": "D",
+   "sw": 955,
+   "name": "A Rock and a Hard Place",
+   "wiki": "",
+   "trig": "Lose to the Gargoyle"
+  },
+  {
+   "code": "D12",
+   "zone": "D",
+   "sw": 956,
+   "name": "Boys will be Boys",
+   "wiki": "",
+   "trig": "Spill the box in the Mall"
+  },
+  {
+   "code": "D13",
+   "zone": "D",
+   "sw": 957,
+   "name": "Stuck in Another World",
+   "wiki": "Stuck In Another World²",
+   "trig": "Fail the QTE in the city park"
+  },
+  {
+   "code": "D14",
+   "zone": "D",
+   "sw": 958,
+   "name": "Pressed Wallflower",
+   "wiki": "",
+   "trig": "Fail the graffiti QTE"
+  },
+  {
+   "code": "D15",
+   "zone": "D",
+   "sw": 959,
+   "name": "Nice or Naughty?",
+   "wiki": "",
+   "trig": ""
+  },
+  {
+   "code": "D16",
+   "zone": "D",
+   "sw": 960,
+   "name": "Naughty or Nice?",
+   "wiki": "",
+   "trig": ""
+  },
+  {
+   "code": "D17",
+   "zone": "D",
+   "sw": 961,
+   "name": "Reindeer Games",
+   "wiki": "",
+   "trig": ""
+  },
+  {
+   "code": "D18",
+   "zone": "D",
+   "sw": 962,
+   "name": "By the Reins",
+   "wiki": "",
+   "trig": "Lose too many presents in the Santa minigame after getting a high score of at least 15"
+  },
+  {
+   "code": "D19",
+   "zone": "D",
+   "sw": 963,
+   "name": "Spineless",
+   "wiki": "",
+   "trig": "Fail the skeleton QTE"
+  },
+  {
+   "code": "D20",
+   "zone": "D",
+   "sw": 964,
+   "name": "A Bloody Mess",
+   "wiki": "",
+   "trig": "Lose to the Ghoul"
+  },
+  {
+   "code": "D21",
+   "zone": "D",
+   "sw": 965,
+   "name": "Queen Bitch",
+   "wiki": "",
+   "trig": "Lose to a Werewolf and submit to the alpha"
+  },
+  {
+   "code": "D22",
+   "zone": "D",
+   "sw": 966,
+   "name": "A Heated Affair",
+   "wiki": "",
+   "trig": "Lose to a Werewolf and leave the cave"
+  },
+  {
+   "code": "D23",
+   "zone": "D",
+   "sw": 967,
+   "name": "Dancing to a Different Tune",
+   "wiki": "",
+   "trig": "Drink several bottles of wine in the Strip Club"
+  },
+  {
+   "code": "D24",
+   "zone": "D",
+   "sw": 968,
+   "name": "Bouncing Busts of Blonde Bimbo Bunnies",
+   "wiki": "",
+   "trig": "Fall to the bunny curse in the Strip Club"
+  },
+  {
+   "code": "D25",
+   "zone": "D",
+   "sw": 969,
+   "name": "Cottontail",
+   "wiki": "",
+   "trig": "Manually remove the Bunnysuit in the Strip Club"
+  },
+  {
+   "code": "D26",
+   "zone": "D",
+   "sw": 970,
+   "name": "How I learned to stop",
+   "wiki": "How I learned to stop worrying and love the slime",
+   "trig": "Get caught by the wandering slimes"
+  },
+  {
+   "code": "D27",
+   "zone": "D",
+   "sw": 971,
+   "name": "Slimed and Mind",
+   "wiki": "",
+   "trig": "Lose to the Parasite Slime"
+  },
+  {
+   "code": "D28",
+   "zone": "D",
+   "sw": 972,
+   "name": "Trapped!",
+   "wiki": "",
+   "trig": "Get caught by Kimccubus in the suburbs when she is running"
+  },
+  {
+   "code": "D29",
+   "zone": "D",
+   "sw": 973,
+   "name": "Corrupted",
+   "wiki": "",
+   "trig": "Get caught by Kimccubus in the suburbs when she is flying"
+  },
+  {
+   "code": "D30",
+   "zone": "D",
+   "sw": 974,
+   "name": "A Lust for Gold",
+   "wiki": "",
+   "trig": "Lose to the Mimic"
+  },
+  {
+   "code": "D31",
+   "zone": "D",
+   "sw": 975,
+   "name": "It's a trap!",
+   "wiki": "",
+   "trig": "Open the tan chest in the Warehouse"
+  },
+  {
+   "code": "D32",
+   "zone": "D",
+   "sw": 976,
+   "name": "No Strings Attached",
+   "wiki": "",
+   "trig": "Fail the minigame in the Warehouse"
+  },
+  {
+   "code": "D33",
+   "zone": "D",
+   "sw": 977,
+   "name": "Bustin' Makes Me Feel Good!",
+   "wiki": "Bustin’ makes me feel good!",
+   "trig": "Lose to the Ghost"
+  },
+  {
+   "code": "D34",
+   "zone": "D",
+   "sw": 978,
+   "name": "Dolls Aren't Just for Little Girls!",
+   "wiki": "Dolls Aren’t Just for Little Girls!",
+   "trig": "Lose to the Living Doll"
+  },
+  {
+   "code": "D35",
+   "zone": "D",
+   "sw": 979,
+   "name": "A Match Forced in Heaven",
+   "wiki": "",
+   "trig": "Touch the flowers in the church, say I Do"
+  },
+  {
+   "code": "D36",
+   "zone": "D",
+   "sw": 980,
+   "name": "Unholy Matrimony",
+   "wiki": "",
+   "trig": "Fail to get properly ready before the wedding"
+  },
+  {
+   "code": "D37",
+   "zone": "D",
+   "sw": 981,
+   "name": "Linked by Love",
+   "wiki": "",
+   "trig": "Get ready for the wedding, say I Do"
+  },
+  {
+   "code": "D38",
+   "zone": "D",
+   "sw": 982,
+   "name": "I am the Law!",
+   "wiki": "",
+   "trig": "Fail to escape the jail"
+  },
+  {
+   "code": "D39",
+   "zone": "D",
+   "sw": 1056,
+   "name": "Default Settings",
+   "wiki": "Default Setting",
+   "trig": "Lose to either robot as R0M-I, say \"Yes\""
+  },
+  {
+   "code": "D40",
+   "zone": "D",
+   "sw": 1057,
+   "name": "Quarantined",
+   "wiki": "",
+   "trig": "Lose to either robot as R0M-I, say \"No!\""
+  },
+  {
+   "code": "D41",
+   "zone": "D",
+   "sw": 1058,
+   "name": "Self-Made Girl",
+   "wiki": "",
+   "trig": "Lose to either robot as PXE"
+  },
+  {
+   "code": "D42",
+   "zone": "D",
+   "sw": 1059,
+   "name": "Conversion Therapy",
+   "wiki": "",
+   "trig": "Lose to either robot as Kim"
+  },
+  {
+   "code": "D43",
+   "zone": "D",
+   "sw": 1060,
+   "name": "Future Shock",
+   "wiki": "",
+   "trig": "Lose to PROXI"
+  },
+  {
+   "code": "D44",
+   "zone": "D",
+   "sw": 1061,
+   "name": "Danse Mechabre",
+   "wiki": "",
+   "trig": "Lose to Morgan and K8-II"
+  },
+  {
+   "code": "D45",
+   "zone": "D",
+   "sw": 1062,
+   "name": "A Step Forward",
+   "wiki": "",
+   "trig": "Get caught by Lina as ROM-I, please her"
+  },
+  {
+   "code": "D46",
+   "zone": "D",
+   "sw": 1063,
+   "name": "B1MB-0",
+   "wiki": "",
+   "trig": "Get caught by Lina as ROM-I, upset her"
+  },
+  {
+   "code": "D47",
+   "zone": "D",
+   "sw": 1064,
+   "name": "Cherry Fairy",
+   "wiki": "",
+   "trig": "Get caught by Lina as PXE"
+  },
+  {
+   "code": "D48",
+   "zone": "D",
+   "sw": 1065,
+   "name": "Ganguro Goddess",
+   "wiki": "",
+   "trig": "Lose to Lina"
+  },
+  {
+   "code": "D49",
+   "zone": "D",
+   "sw": 1066,
+   "name": "Don't lose your head!",
+   "wiki": "",
+   "trig": "Have the Player get Doomed"
+  },
+  {
+   "code": "D50",
+   "zone": "D",
+   "sw": 1067,
+   "name": "Lab Rat",
+   "wiki": "",
+   "trig": "Have Kim get Doomed"
+  },
+  {
+   "code": "D51",
+   "zone": "D",
+   "sw": 1068,
+   "name": "Out of Touch",
+   "wiki": "",
+   "trig": "Lose to Mara"
+  },
+  {
+   "code": "D52",
+   "zone": "D",
+   "sw": 1069,
+   "name": "Know Your Own Mind",
+   "wiki": "",
+   "trig": "Lose to Dark Lich Mara"
+  },
+  {
+   "code": "D53",
+   "zone": "D",
+   "sw": 1070,
+   "name": "Respawned",
+   "wiki": "",
+   "trig": "Lose to Robin"
+  },
+  {
+   "code": "D54",
+   "zone": "D",
+   "sw": 1071,
+   "name": "I know this Pretty Rave Girl",
+   "wiki": "",
+   "trig": "Fail Disco Disco Insurgency"
+  },
+  {
+   "code": "D55",
+   "zone": "D",
+   "sw": 1072,
+   "name": "Wet Nurse",
+   "wiki": "",
+   "trig": "Talk to Dr. Olsen after escaping the shower"
+  },
+  {
+   "code": "D56",
+   "zone": "D",
+   "sw": 1073,
+   "name": "What the Doctor Ordered",
+   "wiki": "",
+   "trig": "Attempt to escape Dr. Olsen after escaping the shower"
+  },
+  {
+   "code": "D57",
+   "zone": "D",
+   "sw": 1074,
+   "name": "Moonlit Dreams",
+   "wiki": "",
+   "trig": "Lose to the Wolf Brute"
+  },
+  {
+   "code": "D58",
+   "zone": "D",
+   "sw": 1075,
+   "name": "Homegrown Hunter",
+   "wiki": "",
+   "trig": "Get caught by Kimccubus inside the house"
+  },
+  {
+   "code": "D59",
+   "zone": "D",
+   "sw": 1076,
+   "name": "The Implication",
+   "wiki": "",
+   "trig": "Lose to Kimccubus"
+  },
+  {
+   "code": "D60",
+   "zone": "D",
+   "sw": 1077,
+   "name": "Fucking Evil But Still Tight",
+   "wiki": "",
+   "trig": "Lose to Dark Succubus Queen Kimara after losing to several other enemies"
+  },
+  {
+   "code": "D61",
+   "zone": "D",
+   "sw": 1078,
+   "name": "Always Fighting For What's Right!",
+   "wiki": "Always Fighting For What's Right",
+   "trig": "Lose to Dark Succubus Queen Kimara"
+  },
+  {
+   "code": "D62",
+   "zone": "D",
+   "sw": 1079,
+   "name": "Clad in Latex and Midnight",
+   "wiki": "",
+   "trig": "Equip the Lovely Wand after using it to defeat Kimccubus"
+  },
+  {
+   "code": "D63",
+   "zone": "D",
+   "sw": 1080,
+   "name": "Joystuck",
+   "wiki": "",
+   "trig": "Use the Unlimited Ticket five times"
+  },
+  {
+   "code": "D64",
+   "zone": "D",
+   "sw": 1102,
+   "name": "Beware the Dog",
+   "wiki": "",
+   "trig": "Lose to the Collared Wolf"
+  },
+  {
+   "code": "D65",
+   "zone": "D",
+   "sw": 1103,
+   "name": "Nippon Daisuki",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Natsuki-chan"
+  },
+  {
+   "code": "D66",
+   "zone": "D",
+   "sw": 1104,
+   "name": "Milk of Human Kindness",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Cowtits"
+  },
+  {
+   "code": "D67",
+   "zone": "D",
+   "sw": 1105,
+   "name": "Pavlov's Puppy",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through \"Mrrow\""
+  },
+  {
+   "code": "D68",
+   "zone": "D",
+   "sw": 1106,
+   "name": "New Girls Sweep Clean",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Phoebe"
+  },
+  {
+   "code": "D69",
+   "zone": "D",
+   "sw": 1107,
+   "name": "Smothered",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Emma"
+  },
+  {
+   "code": "D70",
+   "zone": "D",
+   "sw": 1108,
+   "name": "Running Red Lights",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Maid"
+  },
+  {
+   "code": "D71",
+   "zone": "D",
+   "sw": 1109,
+   "name": "The dIzzy-ing Heights of Love",
+   "wiki": "",
+   "trig": "Succumb to Delta's control through Honey"
+  },
+  {
+   "code": "D72",
+   "zone": "D",
+   "sw": 1110,
+   "name": "Live like a Human, Die like a Dog",
+   "wiki": "",
+   "trig": "Lose to the Collared Wolf or Collared Werewolf without Kim and answer 'truthfully'"
+  },
+  {
+   "code": "D73",
+   "zone": "D",
+   "sw": 1111,
+   "name": "This Town's Going to the Dogs",
+   "wiki": "",
+   "trig": "Lose to the Collared Wolf or Collared Werewolf without Kim and 'lie' once"
+  },
+  {
+   "code": "D74",
+   "zone": "D",
+   "sw": 1112,
+   "name": "Best in Show",
+   "wiki": "",
+   "trig": "Lose to the Collared Wolf or Collared Werewolf without Kim and 'lie' twice"
+  },
+  {
+   "code": "D75",
+   "zone": "D",
+   "sw": 1113,
+   "name": "Bitch and Moan",
+   "wiki": "",
+   "trig": "Lose to the Collared Wolf or Collared Werewolf without Kim and 'lie' for every question"
+  },
+  {
+   "code": "D76",
+   "zone": "D",
+   "sw": 1114,
+   "name": "Like they do on the Discovery Channel",
+   "wiki": "",
+   "trig": "Lose the Gremlin's game"
+  },
+  {
+   "code": "D77",
+   "zone": "D",
+   "sw": 1115,
+   "name": "Directive: Good Dog",
+   "wiki": "Directive",
+   "trig": "Good Dog: Lose to the Gremlin"
+  },
+  {
+   "code": "D78",
+   "zone": "D",
+   "sw": 1116,
+   "name": "Star Crossed Lovers",
+   "wiki": "",
+   "trig": "Lose to Romeo, Deposed Alpha"
+  },
+  {
+   "code": "D79",
+   "zone": "D",
+   "sw": 1117,
+   "name": "Empty Vessels Make the Most Sound",
+   "wiki": "",
+   "trig": "Get hit by Lina during the motorcycle chase and lose to the ambush"
+  },
+  {
+   "code": "D80",
+   "zone": "D",
+   "sw": 1118,
+   "name": "Bimbo Backfire",
+   "wiki": "",
+   "trig": "Get hit by Lina during the motorcycle chase and lose to the bimbofied ambush"
+  },
+  {
+   "code": "D81",
+   "zone": "D",
+   "sw": 1119,
+   "name": "Power Overwhelming",
+   "wiki": "",
+   "trig": "Get hit by Lina during the motorcycle chase and fully bimbofy the ambush"
+  },
+  {
+   "code": "D82",
+   "zone": "D",
+   "sw": 1120,
+   "name": "Ride or Die",
+   "wiki": "",
+   "trig": "Get hit by Lina during the motorcycle chase and defeat the ambush"
+  },
+  {
+   "code": "D83",
+   "zone": "D",
+   "sw": 1123,
+   "name": "Anthro Anthropology",
+   "wiki": "Anthro Anthropology*",
+   "trig": "Lose to the Ratfolk"
+  },
+  {
+   "code": "D84",
+   "zone": "D",
+   "sw": 1124,
+   "name": "Wearing a Plastic Smile",
+   "wiki": "Wearing a Plastic Smile†",
+   "trig": "Get caught by the mannequins in the Silk Store Quest"
+  },
+  {
+   "code": "E1",
+   "zone": "E",
+   "sw": 983,
+   "name": "Riddle Me This",
+   "wiki": "",
+   "trig": "Lose to the Sphinx"
+  },
+  {
+   "code": "E2",
+   "zone": "E",
+   "sw": 984,
+   "name": "Twice as Bright, Half as Long",
+   "wiki": "",
+   "trig": "Fail the Sphinx's first riddle"
+  },
+  {
+   "code": "E3",
+   "zone": "E",
+   "sw": 985,
+   "name": "The First of Nine.",
+   "wiki": "The First of Nine",
+   "trig": "Fail the Sphinx's second riddle"
+  },
+  {
+   "code": "E4",
+   "zone": "E",
+   "sw": 986,
+   "name": "What's in a name?",
+   "wiki": "",
+   "trig": "Fail the Sphinx's third riddle"
+  },
+  {
+   "code": "E5",
+   "zone": "E",
+   "sw": 987,
+   "name": "A Riddle wrapped in like, an Engima",
+   "wiki": "A Riddle Wrapped in, Like, an Enigma Fight the Sphinx and skip her third riddle",
+   "trig": ""
+  },
+  {
+   "code": "E6",
+   "zone": "E",
+   "sw": 988,
+   "name": "The Mummy's Boy",
+   "wiki": "",
+   "trig": "Lose to the Mummy"
+  },
+  {
+   "code": "E7",
+   "zone": "E",
+   "sw": 989,
+   "name": "Are you my Mummy?",
+   "wiki": "",
+   "trig": "Lose to the Mummy and run out of time"
+  },
+  {
+   "code": "E8",
+   "zone": "E",
+   "sw": 990,
+   "name": "Singleminded",
+   "wiki": "",
+   "trig": "Get hit with the rolling black ball"
+  },
+  {
+   "code": "E9",
+   "zone": "E",
+   "sw": 991,
+   "name": "A Sellers Market",
+   "wiki": "",
+   "trig": "Lose to the Anubis"
+  },
+  {
+   "code": "E10",
+   "zone": "E",
+   "sw": 992,
+   "name": "Anubintervention",
+   "wiki": "",
+   "trig": "Lose to the pair of Anubi"
+  },
+  {
+   "code": "E11",
+   "zone": "E",
+   "sw": 993,
+   "name": "Pick Your Poison",
+   "wiki": "",
+   "trig": "Lose to the Manticore"
+  },
+  {
+   "code": "E12",
+   "zone": "E",
+   "sw": 994,
+   "name": "Cexigua",
+   "wiki": "",
+   "trig": "Lose to a tongueless Sandwurm"
+  },
+  {
+   "code": "E13",
+   "zone": "E",
+   "sw": 995,
+   "name": "Surrogacy",
+   "wiki": "",
+   "trig": "Get captured by the Echidna"
+  },
+  {
+   "code": "E14",
+   "zone": "E",
+   "sw": 996,
+   "name": "When You're Least Expecting",
+   "wiki": "",
+   "trig": "Lose in the first battle with the Echidna"
+  },
+  {
+   "code": "E15",
+   "zone": "E",
+   "sw": 997,
+   "name": "Cock Roach",
+   "wiki": "",
+   "trig": "Lose to a Devil Bug"
+  },
+  {
+   "code": "E16",
+   "zone": "E",
+   "sw": 998,
+   "name": "PermanAnt Residence",
+   "wiki": "",
+   "trig": "Lose to Ant Arachne"
+  },
+  {
+   "code": "E17",
+   "zone": "E",
+   "sw": 999,
+   "name": "A Web of Lies",
+   "wiki": "",
+   "trig": "Defeat Arachne, choose 'Another spider?' and fail the QTE"
+  },
+  {
+   "code": "E18",
+   "zone": "E",
+   "sw": 1000,
+   "name": "It's only Natural",
+   "wiki": "",
+   "trig": "Lose to the Mad Scientist after giving him a fossil from the Desert Underground"
+  },
+  {
+   "code": "E19",
+   "zone": "E",
+   "sw": 1001,
+   "name": "Go Down in Prehistory",
+   "wiki": "",
+   "trig": "Lose to the Mad Scientist after giving him the Horn Fossil"
+  },
+  {
+   "code": "E20",
+   "zone": "E",
+   "sw": 1002,
+   "name": "Outbreak",
+   "wiki": "",
+   "trig": "Equip the Harem Girl Outfit on all party members"
+  },
+  {
+   "code": "E21",
+   "zone": "E",
+   "sw": 1003,
+   "name": "Pricked",
+   "wiki": "",
+   "trig": "Drink the water"
+  },
+  {
+   "code": "E22",
+   "zone": "E",
+   "sw": 1004,
+   "name": "Ye Mighty, and Despair!",
+   "wiki": "",
+   "trig": "Enter the oasis in the desert and ask Robin 3 questions"
+  },
+  {
+   "code": "E23",
+   "zone": "E",
+   "sw": 1005,
+   "name": "One man's meat is one girl's poison.",
+   "wiki": "One Man's Meat is One Girl's Poison",
+   "trig": "Lose to a Girtabilu"
+  },
+  {
+   "code": "E24",
+   "zone": "E",
+   "sw": 1006,
+   "name": "Sting Operation",
+   "wiki": "",
+   "trig": "Succumb to a Girtabilu's poison twice"
+  },
+  {
+   "code": "E25",
+   "zone": "E",
+   "sw": 1007,
+   "name": "Golden Girl",
+   "wiki": "Golden Girls",
+   "trig": "Wish for gold in the Genie Lamp"
+  },
+  {
+   "code": "E26",
+   "zone": "E",
+   "sw": 1008,
+   "name": "Back to Reality",
+   "wiki": "",
+   "trig": "Wish to return to the real world in the Genie Lamp"
+  },
+  {
+   "code": "E27",
+   "zone": "E",
+   "sw": 1009,
+   "name": "Wish Granted",
+   "wiki": "",
+   "trig": "See ending entry for details"
+  },
+  {
+   "code": "E28",
+   "zone": "E",
+   "sw": 1010,
+   "name": "Fallen Warrior",
+   "wiki": "",
+   "trig": "Lose to a Lizardwoman"
+  },
+  {
+   "code": "E29",
+   "zone": "E",
+   "sw": 1011,
+   "name": "Hot and Unbothered",
+   "wiki": "",
+   "trig": "Use the hot spring five times"
+  },
+  {
+   "code": "E30",
+   "zone": "E",
+   "sw": 1012,
+   "name": "Friends Forever, Stick Together",
+   "wiki": "",
+   "trig": "Interact with the red slime too much"
+  },
+  {
+   "code": "E31",
+   "zone": "E",
+   "sw": 1013,
+   "name": "Heart of the Cards",
+   "wiki": "",
+   "trig": "Lose to the Duelist and win the card duel against Robin"
+  },
+  {
+   "code": "E32",
+   "zone": "E",
+   "sw": 1014,
+   "name": "Fatal Fate",
+   "wiki": "",
+   "trig": "Step on a wrong tile in the Trial of Night"
+  },
+  {
+   "code": "E33",
+   "zone": "E",
+   "sw": 1015,
+   "name": "Boy Toyed With",
+   "wiki": "",
+   "trig": "Lose to the Warden"
+  },
+  {
+   "code": "E34",
+   "zone": "E",
+   "sw": 1016,
+   "name": "Stuck in the Sexpot",
+   "wiki": "",
+   "trig": "Lose to the Pot Devil"
+  },
+  {
+   "code": "E35",
+   "zone": "E",
+   "sw": 1086,
+   "name": "The Walls have Eyes and Ears",
+   "wiki": "",
+   "trig": "Fail to wash the tar off in the vents"
+  },
+  {
+   "code": "E36",
+   "zone": "E",
+   "sw": 1087,
+   "name": "Judge Not, Lest ye be Judged",
+   "wiki": "",
+   "trig": "Fail to convince Fera to leave after having saved the three people"
+  },
+  {
+   "code": "E37",
+   "zone": "E",
+   "sw": 1088,
+   "name": "Living Vicariously is still Living",
+   "wiki": "",
+   "trig": "Fail to convince Fera to leave after having saved at least one person"
+  },
+  {
+   "code": "E38",
+   "zone": "E",
+   "sw": 1089,
+   "name": "In the Lap of the Gods",
+   "wiki": "",
+   "trig": "Fail to convince Fera to leave after failing to save a single person, choose Anubis"
+  },
+  {
+   "code": "E39",
+   "zone": "E",
+   "sw": 1090,
+   "name": "In the Grace of the Gods",
+   "wiki": "",
+   "trig": "Fail to convince Fera to leave after failing to save a single person, choose Humanity"
+  },
+  {
+   "code": "E40",
+   "zone": "E",
+   "sw": 1091,
+   "name": "I wanna Melt in your Mouth",
+   "wiki": "",
+   "trig": "Fail to bake the cake with Kim"
+  },
+  {
+   "code": "E41",
+   "zone": "E",
+   "sw": 1092,
+   "name": "Cooked to Perfection",
+   "wiki": "",
+   "trig": "Check the oven after freeing Kim and Fera"
+  },
+  {
+   "code": "E42",
+   "zone": "E",
+   "sw": 1093,
+   "name": "Dancing for Tips",
+   "wiki": "",
+   "trig": "Lose to Morgan twice"
+  },
+  {
+   "code": "E43",
+   "zone": "E",
+   "sw": 1094,
+   "name": "Lover's Martyrdom",
+   "wiki": "",
+   "trig": "Lose to Pharaoh Farinet"
+  },
+  {
+   "code": "E44",
+   "zone": "E",
+   "sw": 1095,
+   "name": "Strap on the Feedbag",
+   "wiki": "",
+   "trig": "Lose to Pharaoh Farinet with the headdress and staff broken, interact with the pen"
+  },
+  {
+   "code": "E45",
+   "zone": "E",
+   "sw": 1096,
+   "name": "Hunger is the Best Sauce",
+   "wiki": "",
+   "trig": "Lose to Pharaoh Farinet with the headdress and staff broken, go back to your room"
+  },
+  {
+   "code": "E46",
+   "zone": "E",
+   "sw": 1097,
+   "name": "Succubus of the Sands",
+   "wiki": "",
+   "trig": "Lose to Pharaoh Farinet with the headdress and staff broken, leave the pyramid"
+  },
+  {
+   "code": "E47",
+   "zone": "E",
+   "sw": 1098,
+   "name": "Land of Milk and Honey",
+   "wiki": "",
+   "trig": "Lose in the second battle with the Echidna"
+  },
+  {
+   "code": "E48",
+   "zone": "E",
+   "sw": 1099,
+   "name": "Mother's Little Helpers",
+   "wiki": "",
+   "trig": "Read the Relic of Hathor"
+  },
+  {
+   "code": "E49",
+   "zone": "E",
+   "sw": 1100,
+   "name": "Can't Teach the Mother to Lay Eggs",
+   "wiki": "",
+   "trig": "Read the Relic of Hathor and attempt to transform Bastet several times"
+  },
+  {
+   "code": "E50",
+   "zone": "E",
+   "sw": 1101,
+   "name": "It's a Long Story",
+   "wiki": "",
+   "trig": "Lose to Khepri"
+  },
+  {
+   "code": "E51",
+   "zone": "E",
+   "sw": 1121,
+   "name": "Desert Omens",
+   "wiki": "",
+   "trig": "Leave the Desert with Farinet's curse"
+  },
+  {
+   "code": "E52",
+   "zone": "E",
+   "sw": 1122,
+   "name": "Puffed up with Pride",
+   "wiki": "",
+   "trig": "Leave the Desert with Bastet's curse"
+  },
+  {
+   "code": "F1",
+   "zone": "F",
+   "sw": 1046,
+   "name": "Bottom's Up!",
+   "wiki": "Bottom's Up",
+   "trig": "Fail the Feasting Beast QTE and choose \"Follow the warmth\""
+  },
+  {
+   "code": "F2",
+   "zone": "F",
+   "sw": 1047,
+   "name": "Can't Make This Stuff Up!",
+   "wiki": "Can't Make This Stuff Up",
+   "trig": "Read the purple book in the Princess's secret lab as Princess Rien, with the mental changes over halfway done."
+  },
+  {
+   "code": "F3",
+   "zone": "F",
+   "sw": 1048,
+   "name": "Pretty as a Princess",
+   "wiki": "",
+   "trig": "Fail to escape the Princess's bedroom in time"
+  },
+  {
+   "code": "F4",
+   "zone": "F",
+   "sw": 1049,
+   "name": "Hardon My French",
+   "wiki": "Hardon My French*",
+   "trig": "Succumb to Obedience as a French Maid"
+  },
+  {
+   "code": "F5",
+   "zone": "F",
+   "sw": 1050,
+   "name": "If I Were a Boi",
+   "wiki": "If I were a Boi*",
+   "trig": "Succumb to Obedience as a Femboy Maid"
+  },
+  {
+   "code": "F6",
+   "zone": "F",
+   "sw": 1051,
+   "name": "Cat Needs the Cradle",
+   "wiki": "Cat Needs the Cradle*",
+   "trig": "Succumb to Obedience as a Catgirl Maid"
+  },
+  {
+   "code": "F7",
+   "zone": "F",
+   "sw": 1052,
+   "name": "Know Your Place, Elfin Race",
+   "wiki": "Know Your Place, Elfin Race*",
+   "trig": "Succumb to Obedience as an Elfin Maid"
+  },
+  {
+   "code": "F8",
+   "zone": "F",
+   "sw": 1053,
+   "name": "Trading Lives",
+   "wiki": "",
+   "trig": "Lose to the Bandit and the Tanuki Merchant"
+  },
+  {
+   "code": "F9",
+   "zone": "F",
+   "sw": 1054,
+   "name": "Taking the Rac",
+   "wiki": "",
+   "trig": "Lose to the Bandit, and successfully steal the necklace"
+  },
+  {
+   "code": "F10",
+   "zone": "F",
+   "sw": 1055,
+   "name": "Circle of Life",
+   "wiki": "",
+   "trig": "Lose to a Harpy"
+  },
+  {
+   "code": "F11",
+   "zone": "F",
+   "sw": 1125,
+   "name": "The Featherweight Tramp",
+   "wiki": "",
+   "trig": "Lose to the Harpy Matriarch"
+  },
+  {
+   "code": "F12",
+   "zone": "F",
+   "sw": 1126,
+   "name": "An Iron Grip",
+   "wiki": "",
+   "trig": "Lose all honour in the dominant path of the Goblin Quest"
+  },
+  {
+   "code": "F13",
+   "zone": "F",
+   "sw": 1127,
+   "name": "Big Things Come in Small Packages",
+   "wiki": "Big Things Come in Small Packages†",
+   "trig": "Lose all honour in the goblin path of the Goblin Quest"
+  },
+  {
+   "code": "F14",
+   "zone": "F",
+   "sw": 1128,
+   "name": "Trojan Whore",
+   "wiki": "",
+   "trig": "Lose all honour in the submissive path of the Goblin Quest"
+  },
+  {
+   "code": "F15",
+   "zone": "F",
+   "sw": 1129,
+   "name": "Near and Deer",
+   "wiki": "",
+   "trig": "Lose to Aisai after the Goblin Quest, and \"Stay with the Stag\""
+  },
+  {
+   "code": "F16",
+   "zone": "F",
+   "sw": 1130,
+   "name": "Jane Doe",
+   "wiki": "",
+   "trig": "Lose to Aisai after the Goblin Quest, and \"Fight your Fear\""
+  },
+  {
+   "code": "F17",
+   "zone": "F",
+   "sw": 1131,
+   "name": "Gud Husbun make Gud Waife",
+   "wiki": "",
+   "trig": "Lose to the Bridge Troll"
+  },
+  {
+   "code": "F18",
+   "zone": "F",
+   "sw": 1132,
+   "name": "Royally Fucked",
+   "wiki": "Royally Fucked†",
+   "trig": "Get caught by Morgan in the Mystic Woods East"
+  },
+  {
+   "code": "F19",
+   "zone": "F",
+   "sw": 1133,
+   "name": "It's a Bust",
+   "wiki": "",
+   "trig": "Lose to the Living Statue in Cellini's Workshop"
+  },
+  {
+   "code": "F20",
+   "zone": "F",
+   "sw": 1134,
+   "name": "A Rolling Stone Gathers No Moss",
+   "wiki": "",
+   "trig": "Lose to the Living Statue in the Deserted Cliffs"
+  },
+  {
+   "code": "F21",
+   "zone": "F",
+   "sw": 1135,
+   "name": "Pillar of the Community",
+   "wiki": "",
+   "trig": "Lose to Cellini's Assistant"
+  },
+  {
+   "code": "F22",
+   "zone": "F",
+   "sw": 1136,
+   "name": "Magnum Opus",
+   "wiki": "",
+   "trig": "Lose to Cellini the Sculptor and do not flee"
+  },
+  {
+   "code": "F23",
+   "zone": "F",
+   "sw": 1137,
+   "name": "Statuesque",
+   "wiki": "",
+   "trig": "Lose to Cellini the Sculptor and attempt to flee"
+  },
+  {
+   "code": "F24",
+   "zone": "F",
+   "sw": 1138,
+   "name": "Love is Stone-Blind",
+   "wiki": "Love is Stone-Blind†",
+   "trig": "Get petrified by Cellini the Sculptor"
+  },
+  {
+   "code": "F25",
+   "zone": "F",
+   "sw": 1139,
+   "name": "A Life in Chains Is No Life At All",
+   "wiki": "",
+   "trig": "Let go of the statue and then use magic on first person, threaten the second, and \"take down\" the third."
+  },
+  {
+   "code": "F26",
+   "zone": "F",
+   "sw": 1140,
+   "name": "The 'Short' Lived Princess",
+   "wiki": "",
+   "trig": "Let go of the statue and then use magic on first person and use magic on the second as well."
+  },
+  {
+   "code": "F27",
+   "zone": "F",
+   "sw": 1141,
+   "name": "Long Live the Princess",
+   "wiki": "",
+   "trig": "Let go of the statue and then bribe the first person, threaten the second, and \"take down\" the third."
+  },
+  {
+   "code": "F28",
+   "zone": "F",
+   "sw": 1142,
+   "name": "Free Rein",
+   "wiki": "",
+   "trig": "Lose to Aisai in the Ranch"
+  },
+  {
+   "code": "F29",
+   "zone": "F",
+   "sw": 1143,
+   "name": "Heartstrings",
+   "wiki": "",
+   "trig": "Lose to Reylen"
+  },
+  {
+   "code": "F30",
+   "zone": "F",
+   "sw": 1144,
+   "name": "Back Behind the Eight Ball",
+   "wiki": "",
+   "trig": "Lose to Cevia in the Mystic Woods"
+  },
+  {
+   "code": "F31",
+   "zone": "F",
+   "sw": 1145,
+   "name": "The Redcap-et Treatment",
+   "wiki": "",
+   "trig": "Trigger multiple fairy traps in the Mystic Woods with The Player wearing the Red or Crimson Beret"
+  },
+  {
+   "code": "F32",
+   "zone": "F",
+   "sw": 1146,
+   "name": "Drunk off the Atmosphere",
+   "wiki": "",
+   "trig": "Drink the Gida Wine 4 times in a row, then do not leave the clearing."
+  },
+  {
+   "code": "F33",
+   "zone": "F",
+   "sw": 1147,
+   "name": "Temptation Given Flesh",
+   "wiki": "",
+   "trig": "After turning into a satyr, leave the clearing and get caught by cultists."
+  },
+  {
+   "code": "F34",
+   "zone": "F",
+   "sw": 1148,
+   "name": "Not Quite the Greatest Of All Time",
+   "wiki": "",
+   "trig": "After turning into a satyr, leave the clearing and escape the cultists."
+  },
+  {
+   "code": "F35",
+   "zone": "F",
+   "sw": 1149,
+   "name": "A Maiden's Work is Never Done",
+   "wiki": "",
+   "trig": "Run out of time in the Shrine"
+  },
+  {
+   "code": "F36",
+   "zone": "F",
+   "sw": 1150,
+   "name": "The Souless Legion",
+   "wiki": "The Soulless Legion",
+   "trig": "Lose to Ochimusha Kim"
+  },
+  {
+   "code": "F37",
+   "zone": "F",
+   "sw": 1151,
+   "name": "Caution to the Wind",
+   "wiki": "",
+   "trig": "Lose to the Kamaitachi"
+  },
+  {
+   "code": "F38",
+   "zone": "F",
+   "sw": 1152,
+   "name": "Thank You for the Donation",
+   "wiki": "",
+   "trig": "Lose to the Kitsune and agree to the final request"
+  },
+  {
+   "code": "F39",
+   "zone": "F",
+   "sw": 1153,
+   "name": "Peace of Mind",
+   "wiki": "",
+   "trig": "Lose to the kitsune and refuse the final request"
+  },
+  {
+   "code": "F40",
+   "zone": "F",
+   "sw": 1154,
+   "name": "A Future Enshrined",
+   "wiki": "",
+   "trig": "Lose to Otohime Yuuka and gain her respect"
+  },
+  {
+   "code": "F41",
+   "zone": "F",
+   "sw": 1155,
+   "name": "Woman of the Waters",
+   "wiki": "",
+   "trig": "Lose to Otohime Yuuka and fail to impress her"
+  },
+  {
+   "code": "F42",
+   "zone": "F",
+   "sw": 1156,
+   "name": "Split Ends",
+   "wiki": "",
+   "trig": "Lose to the Kejourou"
+  },
+  {
+   "code": "F43",
+   "zone": "F",
+   "sw": 1157,
+   "name": "Bad Hair Day",
+   "wiki": "",
+   "trig": "Climb the hair rope in the main hall of the Tainted Shrine during the Miko Quest with the Comb in the inventory."
+  },
+  {
+   "code": "F44",
+   "zone": "F",
+   "sw": 1158,
+   "name": "Bleed 'em Dry",
+   "wiki": "",
+   "trig": "Wield the Red Wagasa outside in the Tainted Shrine during the Miko Quest"
+  },
+  {
+   "code": "F45",
+   "zone": "F",
+   "sw": 1159,
+   "name": "Bearing One Another's Burdens",
+   "wiki": "Bear One Another's Burdens",
+   "trig": "Accept the baby from the Ugume during the Yokai Quest"
+  },
+  {
+   "code": "F46",
+   "zone": "F",
+   "sw": 1160,
+   "name": "Down on Your Luck",
+   "wiki": "",
+   "trig": "Lose to the Binbōgami"
+  },
+  {
+   "code": "F47",
+   "zone": "F",
+   "sw": 1161,
+   "name": "The Model Wife",
+   "wiki": "",
+   "trig": "Enter the doll shack as a miko"
+  },
+  {
+   "code": "F48",
+   "zone": "F",
+   "sw": 1162,
+   "name": "Do I even need to say it?",
+   "wiki": "",
+   "trig": "Use the Carrot at the ranch, and agree to be bred by the Rabbit King"
+  },
+  {
+   "code": "F49",
+   "zone": "F",
+   "sw": 1163,
+   "name": "Married Above Her Station",
+   "wiki": "",
+   "trig": "Use the Carrot at the ranch, and refused to be bred by the Rabbit King"
+  },
+  {
+   "code": "F50",
+   "zone": "F",
+   "sw": 1164,
+   "name": "Let Them Eat Cake",
+   "wiki": "",
+   "trig": "\"Try for the window\" during the Bakery Quest"
+  },
+  {
+   "code": "F51",
+   "zone": "F",
+   "sw": 1165,
+   "name": "A Baker's Trio",
+   "wiki": "",
+   "trig": "Lose to Cevia in the Bakery Quest"
+  },
+  {
+   "code": "F52",
+   "zone": "F",
+   "sw": 1166,
+   "name": "Beware the Big Bad Wolf",
+   "wiki": "",
+   "trig": "Lose to the Wolf Brutes in the Courier Quest without wearing the Courier's Cloak"
+  },
+  {
+   "code": "F53",
+   "zone": "F",
+   "sw": 1167,
+   "name": "A Wolf in Sheep's Clothing",
+   "wiki": "",
+   "trig": "Lose to the Wolf Brutes in the Courier Quest while wearing the Courier's Cloak"
+  },
+  {
+   "code": "F54",
+   "zone": "F",
+   "sw": 1168,
+   "name": "Worth her Weight in Gold",
+   "wiki": "",
+   "trig": "Trade most/all of your memories to the Court of Dawn."
+  },
+  {
+   "code": "F55",
+   "zone": "F",
+   "sw": 1169,
+   "name": "Green With Envy, Gold With Wrath",
+   "wiki": "",
+   "trig": "Trade most/all of Kim's memories to the Court of Dawn, and barter memories to retrieve her while having traded most/all of your memories to the court of Dawn yourself. Free the fairy."
+  },
+  {
+   "code": "F56",
+   "zone": "F",
+   "sw": 1170,
+   "name": "Flat as a Tack",
+   "wiki": "",
+   "trig": "Trade most/all of Kim's memories to the Court of Dawn, and barter memories to retrieve her while having traded most/all of your memories to the court of Dawn yourself. Ignore the fairy."
+  },
+  {
+   "code": "F57",
+   "zone": "F",
+   "sw": 1171,
+   "name": "Stout-Hearted",
+   "wiki": "",
+   "trig": "Trade most/all of Dominic's memories to the Court of Dawn, and barter memories to retrieve him while having traded most/all of your memories to the court of Dawn yourself."
+  },
+  {
+   "code": "F58",
+   "zone": "F",
+   "sw": 1172,
+   "name": "A Fairy Made",
+   "wiki": "A Fairy Made*",
+   "trig": "Trade most/all of your memories to the Court of Twilight, then choose at least three \"correct\" memories"
+  },
+  {
+   "code": "F59",
+   "zone": "F",
+   "sw": 1173,
+   "name": "A Fairy, Laid",
+   "wiki": "A Fairy, Laid*",
+   "trig": "Trade most/all of your memories to the Court of Twilight, then choose at least three \"ambiguous\" memories"
+  },
+  {
+   "code": "F60",
+   "zone": "F",
+   "sw": 1174,
+   "name": "A Fairy's Aide",
+   "wiki": "A Fairy's Aide*",
+   "trig": "Trade most/all of your memories to the Court of Twilight, then choose at least three \"fairy\" memories"
+  },
+  {
+   "code": "F61",
+   "zone": "F",
+   "sw": 1175,
+   "name": "A Fairy Displayed",
+   "wiki": "",
+   "trig": "Trade most/all of your memories to the Court of Twilight, then choose two of each memory path"
+  },
+  {
+   "code": "F62",
+   "zone": "F",
+   "sw": 1176,
+   "name": "Two Can Play at that Game",
+   "wiki": "",
+   "trig": "Trade most/all of Kim's memories to the Court of Twilight, and barter memories to retrieve her while having traded most/all of your memories to the court yourself."
+  },
+  {
+   "code": "F63",
+   "zone": "F",
+   "sw": 1177,
+   "name": "Stiff Competition",
+   "wiki": "",
+   "trig": "Trade most/all of Dominic's memories to the Court of Twilight, and barter memories to retrieve him while having traded most/all of your memories to the court yourself."
+  },
+  {
+   "code": "F64",
+   "zone": "F",
+   "sw": 1178,
+   "name": "Nest Egg",
+   "wiki": "Nest Egg†",
+   "trig": "Get caught by the golden hen in the Court of Twilight"
+  },
+  {
+   "code": "F65",
+   "zone": "F",
+   "sw": 1179,
+   "name": "Keep Harping On",
+   "wiki": "Keep Harping On†",
+   "trig": "Get caught by Queen Mab in the Court of Twilight"
+  },
+  {
+   "code": "F66",
+   "zone": "F",
+   "sw": 1180,
+   "name": "Art Appreciation",
+   "wiki": "",
+   "trig": "Trade most/all of your memories to the Court of Dusk"
+  },
+  {
+   "code": "F67",
+   "zone": "F",
+   "sw": 1181,
+   "name": "Sidhe's All That",
+   "wiki": "Sidhe's All That*",
+   "trig": "Trade most/all of Kim's memories to the Court of Dusk, and barter memories to retrieve her while having traded most/all of your memories to the court yourself."
+  },
+  {
+   "code": "F68",
+   "zone": "F",
+   "sw": 1182,
+   "name": "T-HEEits and HAWss",
+   "wiki": "",
+   "trig": "Trade most/all of Dominic's memories to the Court of Dusk, and barter memories to retrieve him while having traded most/all of your memories to the court yourself."
+  },
+  {
+   "code": "F69",
+   "zone": "F",
+   "sw": 1183,
+   "name": "Front Row Seat to the Future",
+   "wiki": "",
+   "trig": "Finish being reformated"
+  },
+  {
+   "code": "F70",
+   "zone": "F",
+   "sw": 1184,
+   "name": "Cog in the Machine",
+   "wiki": "A Cog in the Machine",
+   "trig": "Lose to the Hollow PXEs/SECURIXEs"
+  },
+  {
+   "code": "F71",
+   "zone": "F",
+   "sw": 1185,
+   "name": "Assimilation, Integration, Degradation",
+   "wiki": "",
+   "trig": "Lose to Queen Titania"
+  },
+  {
+   "code": "F72",
+   "zone": "F",
+   "sw": 1186,
+   "name": "A New Elysium",
+   "wiki": "",
+   "trig": "Defeat the party in the Kunoichi Quest or lose twice in a row."
+  },
+  {
+   "code": "F73",
+   "zone": "F",
+   "sw": 1187,
+   "name": "Okaerinasai",
+   "wiki": "",
+   "trig": "Get caught by the guards thrice in the first mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F74",
+   "zone": "F",
+   "sw": 1188,
+   "name": "Kneel Before Your Rod",
+   "wiki": "",
+   "trig": "Fail the attack in the first mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F75",
+   "zone": "F",
+   "sw": 1189,
+   "name": "Hollowed Out",
+   "wiki": "",
+   "trig": "Get caught by the yokai frogs twice in the second mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F76",
+   "zone": "F",
+   "sw": 1190,
+   "name": "Running On Empty",
+   "wiki": "",
+   "trig": "Get caught by the husks twice in the second mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F77",
+   "zone": "F",
+   "sw": 1191,
+   "name": "A Waste of Breath",
+   "wiki": "",
+   "trig": "Fail the final QTEs in the second mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F78",
+   "zone": "F",
+   "sw": 1192,
+   "name": "Taking Your Cut",
+   "wiki": "",
+   "trig": "Get caught by the thugs in the third mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F79",
+   "zone": "F",
+   "sw": 1193,
+   "name": "The Art of Ikebana",
+   "wiki": "",
+   "trig": "Enter the dining room in the third mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F80",
+   "zone": "F",
+   "sw": 1194,
+   "name": "The Escort's Escort",
+   "wiki": "",
+   "trig": "Help Lady Minaka one too many times in the third mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F81",
+   "zone": "F",
+   "sw": 1195,
+   "name": "Kiss the Hand that Feeds You",
+   "wiki": "",
+   "trig": "Attack the lord without having helped Lady Minaka in the third mission of the Kunoichi Quest"
+  },
+  {
+   "code": "F82",
+   "zone": "F",
+   "sw": 1196,
+   "name": "A Hungry Belly Has No Ears",
+   "wiki": "",
+   "trig": "Lose to a Centaur Guard"
+  },
+  {
+   "code": "F83",
+   "zone": "F",
+   "sw": 1197,
+   "name": "Rearing Up",
+   "wiki": "",
+   "trig": "Lose the Centaur Chief's race twice, and attempt to mate with Kiwi"
+  },
+  {
+   "code": "F84",
+   "zone": "F",
+   "sw": 1198,
+   "name": "Bringing Up The Rear",
+   "wiki": "",
+   "trig": "Lose to the Centaur Chief's race twice, and attempt to sympathize with Kiwi"
+  },
+  {
+   "code": "F85",
+   "zone": "F",
+   "sw": 1199,
+   "name": "Hometown Honey",
+   "wiki": "",
+   "trig": "Lose to the Centaur Chief's race twice while riding Honey"
+  },
+  {
+   "code": "F86",
+   "zone": "F",
+   "sw": 1200,
+   "name": "Experience is the Best Teacher",
+   "wiki": "Experience is the Best Teacher†",
+   "trig": "Lose to the Centaur Chief"
+  },
+  {
+   "code": "F87",
+   "zone": "F",
+   "sw": 1201,
+   "name": "Suit Each Other to a T",
+   "wiki": "",
+   "trig": "Lose to the Happy Clowns"
+  },
+  {
+   "code": "F88",
+   "zone": "F",
+   "sw": 1202,
+   "name": "Silence is Monochrome",
+   "wiki": "Silence is Monochrome†",
+   "trig": "Lose to the Mime"
+  },
+  {
+   "code": "F89",
+   "zone": "F",
+   "sw": 1203,
+   "name": "A Magician Never Reveals His Secrets",
+   "wiki": "A Magician Never Reveals His Secrets†",
+   "trig": "Enter the magician boxes more than 8 times"
+  },
+  {
+   "code": "F90",
+   "zone": "F",
+   "sw": 1204,
+   "name": "Send in the Clowns",
+   "wiki": "Send in the Clowns†",
+   "trig": "Lose to Klutzy the Clown"
+  },
+  {
+   "code": "F91",
+   "zone": "F",
+   "sw": 1205,
+   "name": "Paid in Exposure",
+   "wiki": "Paid in Exposure†",
+   "trig": "Lose to Oswald's trio"
+  },
+  {
+   "code": "F92",
+   "zone": "F",
+   "sw": 1206,
+   "name": "A Good Marriage Is Like Clockwork",
+   "wiki": "",
+   "trig": ""
+  }
+ ]
+}
