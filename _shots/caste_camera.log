@@ -1,0 +1,30 @@
+  ok    reached Caste City (map 14)
+  (1) {"armedImmediately":true,"lockedImmediately":-1,"survivedOtherTerminate":true,"stillLocked":-1}
+  ok    cam_set arms a glide and parks the camera
+  ok    an unrelated interpreter terminating does NOT abort the pan
+  (2) {"frames":289,"settled":true,"target":-1,"disp":[3,10]}
+  ok    the pan settles on its own
+  ok    cam_set stays parked once it arrives (by design)
+  (3) {"armed":true,"planAfter":false,"target":0}
+  ok    the owning interpreter dying releases the camera
+  (4) {"target":0,"before":[0,0],"after":[1.125,0],"spot":[8,1],"playerMoved":true,"movedX":3,"displayFollowedX":false,"displayMoved":true}
+  ok    found a walkable spot to test on
+  ok    the player actually walked
+  FAIL  the display tracks the player step for step
+        {"target":0,"before":[0,0],"after":[1.125,0],"spot":[8,1],"playerMoved":true,"movedX":3,"displayFollowedX":false,"displayMoved":true}
+  ok    ...and something on screen moved
+  (5) {"mapId":14,"hasEvent":true,"pageLen":285,"trigger":3}
+  ok    event 5 "Game Set" is live once switch 22 is on
+  (6a) cutscene diagnostic {"busy":false,"ev":true,"target":-1,"mapId":14,"e5idx":-2,"e5wait":"","running":[],"scene":"Scene_Map"}
+  (6) {"target":-1,"plan":false,"mapId":14,"disp":[21,7],"player":[11,-1],"idx":-2,"scene":"Scene_Map"}
+  ok    the cutscene got past the chain-command minigame at :122
+  ok    ...and no pan is left armed
+  (7) {"target":0,"frames":578,"settled":true,"centered":true}
+  ok    cam_center hands the camera back even from a stalled cutscene
+  (8) {"menuScene":"Scene_PXEBestChoose","names":["PXEpedia","Bestiary","Return"],"pediaScene":"Encyclopedia","bestiaryScene":"Scene_MonsterCatalogue"}
+  ok    Scene_PXEBestChoose opens with PXEpedia / Bestiary / Return
+  ok    PXEpedia opens the real encyclopedia (0146.rb), not the catalogue
+  ok    Bestiary opens the monster catalogue (0147.rb)
+  ok    no page errors
+
+CASTE CAMERA FAILED: 1 assertion(s)

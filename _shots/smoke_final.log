@@ -1,0 +1,67 @@
+--- boot ---
+PROBE boot/title                   {"scene":"Scene_Title","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+--- new game -> map ---
+MAPINFO {"mapId":238,"w":17,"h":13,"tilemap":"Tilemap","chars":1,"tilesetId":1}
+PROBE map-loaded                   {"scene":"Scene_Map","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+--- dismiss opening cutscene ---
+  ok-press 10  messageBusy=true eventRunning=true
+  ok-press 20  messageBusy=false eventRunning=true
+  ok-press 30  messageBusy=false eventRunning=true
+  ok-press 40  messageBusy=false eventRunning=true
+  ok-press 50  messageBusy=true eventRunning=true
+  ok-press 60  messageBusy=false eventRunning=false
+PROBE after-cutscene               {"scene":"Scene_Map","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+--- real transfers ---
+  TRANSFER 1 ok  events=12
+  TRANSFER 3 ok  events=2
+  TRANSFER 7 ok  events=42
+  TRANSFER 12 ok  events=46
+  TRANSFER 14 ok  events=133
+  TRANSFER 22 ok  events=23
+  TRANSFER 37 -> DEFERRED (cutscene running on 22)
+  TRANSFER 55 ok  events=7
+  TRANSFER 78 ok  events=30
+  TRANSFER 101 ok  events=34
+  TRANSFER 140 ok  events=5
+  TRANSFER 190 ok  events=35
+  TRANSFER 238 ok  events=1
+  TRANSFER 285 ok  events=21
+  TRANSFER 330 -> DEFERRED (cutscene running on 285)
+  TRANSFER 375 -> DEFERRED (cutscene running on 285)
+  TRANSFER 420 -> DEFERRED (cutscene running on 285)
+  TRANSFER 465 -> DEFERRED (cutscene running on 285)
+  TRANSFER 499 -> DEFERRED (cutscene running on 285)
+  TRANSFER 507 -> DEFERRED (cutscene running on 285)
+PROBE after-transfers              {"scene":"Encyclopedia","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE after-walk                   {"scene":"Encyclopedia","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+--- menus ---
+PROBE Scene_Menu                   {"scene":"Scene_Item","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Item                   {"scene":"Scene_Item","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Skill                  {"scene":"Scene_Skill","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Equip                  {"scene":"Scene_Equip","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Status                 {"scene":"Scene_Status","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Save                   {"scene":"Scene_Save","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE Scene_Load                   {"scene":"Scene_Map","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+SOFT_NOTES      transfer 37 deferred by a running event on map 22 | transfer 330 deferred by a running event on map 285 | transfer 375 deferred by a running event on map 285 | transfer 420 deferred by a running event on map 285 | transfer 465 deferred by a running event on map 285 | transfer 499 deferred by a running event on map 285 | transfer 507 deferred by a running event on map 285 | Scene_Menu->Scene_Item | Scene_Load->Scene_Map
+--- move-route ruby bridge ---
+MOVEROUTE       {"setup":{"mapId":507,"evId":1,"x0":16,"y0":42},"check":{"selfSwitchD":true,"moved":false,"stopped":false,"showed":false,"moveRuns":7,"moveFails":0}}
+--- regressions ---
+REGRESSIONS     {"index":{"ids":[219,220,221],"v500":2,"v501":7,"v502":1,"trail":"0:355 2:122 3:355 4:0 5:-1","guard":1},"selfVar":{"stock3":7,"eventId":0,"mapId":507},"scene":{"hasAccessor":true,"savedScene":true,"type":"object"},"logWindow":true,"extraSynth":{"switchOff":false,"switchOn":true,"wrongValue":false},"pages238":{"pageCount":11,"matched_v99_0":[0],"matched_v99_3":[3]},"customData":{"exists":true,"kinds":9,"ret":true,"registered":true,"liveRowTouched":true,"nameBefore":"Thief's Gear"},"dbRewrite":{"name":"Regression Blade","iconIndex":9025,"deadIconProp":false,"errors":0},"moveSpeed":{"fractional":4.15,"noDash":{"unlocked":true,"locked":false}},"showText":{"total":2222,"malformed":0},"camera":{"diagEq":true,"diagMoved":true,"bothAxes":true,"movedX":true,"movedY":true,"diagXY":[10,26],"downXY":[12,26],"leftXY":[10,24],"at":"12,24","setOk":true,"locked":-1,"centered":true,"unlocked":0,"armed":true,"frames":13,"settled":true,"waitCleared":true,"glideMoved":true},"systemAssets":{"iconW":24,"stateIconW":24,"skin":[192,192],"colorNormal":"#ffffff","colorSystem":"#20a0d6","icon13":[0,312],"icon0":[0,0,0],"seam":1,"max":[3,1536],"chunkHeights":{"IconSet":6144,"IconSet_1":6144,"IconSet_2":6144,"IconSet_3":1560},"drawnPx":402,"font":"Segoe UI, Microsoft YaHei UI, Microsoft YaHei, PingFang SC, Hiragino Sans GB, Noto Sans SC, Helvetica Neue, Arial, sans-serif"},"fog":{"hasLayer":true,"fromScene":true,"hasSprite":true,"name":"Fog1","z":303,"fills":[0,0,816,624],"tileScale":1.5,"blendMode":1,"opacity":100,"scrollFollowsMap":true,"fadedTo":20,"tone":[40,-40,-15,0],"hasToneFilter":true,"cleared":true},"choice":{"hidden":true,"disabled":true,"text":"Renamed","map":[0,2],"disabledFlag":false,"reported":2}}
+--- battle ---
+BATTLE {"ok":true}
+PROBE battle                       {"scene":"Scene_Battle","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE battle-turns                 {"scene":"Scene_Battle","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+PROBE final/title                  {"scene":"Scene_Map","stopped":false,"showed":false,"err":"","audioErr":false,"imgReady":true,"missing":0,"missingSample":[]}
+--- picture extension fallback ---
+PICTURES        [{"name":"Echidna1","ready":true,"w":544,"h":416},{"name":"PrincessMaid1","ready":true,"w":544,"h":416},{"name":"Beret174a","ready":true,"w":544,"h":416}]
+--------------------------------------------------
+RUBY_STATS      {"move":7,"event":856,"failedMove":0,"failedEvent":0,"translated":1497,"conditions":630}
+RUBY_ERRORS     0 in 0 group(s)
+RUBY_PENDING    {"?totally_undefined_ruby_call":1,"log_window.add_text":2,"log_window.wait_and_clear":1}
+GUARD_REPORTS   0
+GUARD_SAMPLE    
+MISSING_ASSETS  0 []
+NET_FAILURES    0  
+ERR_SCREENS     none
+HARD_ERRORS     none
+VERDICT         PASS

@@ -1,0 +1,17 @@
+ERROR_COUNT 1
+--- error #1 ---
+msg   : Cannot read properties of undefined (reading 'clamp')
+scene : Scene_Map  mapId=14
+cmd   : {"code":205,"indent":0,"params":"[6,{\"repeat\":false,\"skippable\":false,\"wait\":true,\"list\":[{\"code\":45,\"parameters\":[\"self_switch(\\\"A\\\",true)\"]},{\"code\":0,\"parameters\":[]}]}]"}
+stack :
+TypeError: Cannot read properties of undefined (reading 'clamp')
+    at Sprite.set (http://127.0.0.1:8765/js/rpg_core.js:4055:28)
+    at Sprite_Animation.updateCellSprite (http://127.0.0.1:8765/js/rpg_sprites.js:1434:24)
+    at Sprite_Animation.updateAllCellSprites (http://127.0.0.1:8765/js/rpg_sprites.js:1404:18)
+    at Sprite_Animation.updateFrame (http://127.0.0.1:8765/js/rpg_sprites.js:1386:14)
+    at Sprite_Animation.updateMain (http://127.0.0.1:8765/js/rpg_sprites.js:1356:22)
+    at Sprite_Animation.update (http://127.0.0.1:8765/js/rpg_sprites.js:1240:10)
+    at http://127.0.0.1:8765/js/rpg_core.js:4708:19
+    at Array.forEach (<anonymous>)
+    at Tilemap.update (http://127.0.0.1:8765/js/rpg_core.js:4706:19)
+    at http://127.0.0.1:8765/js/rpg_core.js:4068:19

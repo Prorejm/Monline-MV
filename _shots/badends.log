@@ -1,0 +1,50 @@
+--- the roster ---
+  ok    the plugin is loaded
+  {"A":17,"B":23,"C":38,"D":84,"E":52,"F":92}
+  ok    306 endings
+  ok    zone counts A17 B23 C38 D84 E52 F92
+  ok    every ending has its own switch
+  ok    every ending is named
+  ok    most endings carry a trigger hint
+  ok    A1 is Liar Liar on switch 901
+  ok    C31 is Once Bitten and no longer shares A6's switch
+  ok    F24 no longer shares A6's switch
+  ok    F92 no longer shares A6's switch
+  ok    B10 is on its own switch 914
+  ok    an unknown code resolves to null
+  ok    every ending switch is an ACH: End switch
+--- recording ---
+  {"before":0,"after":2,"afterSwitch":true,"seenA1":true,"seenA3":false}
+  ok    a fresh reset starts at 0
+  ok    marking an ending also turns on its switch
+  ok    marking two endings counts two
+  ok    marked endings report seen, others do not
+  ok    an ending is seen as soon as its switch is turned on
+  ok    the collection survives a new game (gallery behaviour)
+--- the gallery scene ---
+  ok    the gallery opens
+  {"header":{"x":0,"y":0,"w":816,"h":108},"zone":{"x":0,"y":108,"w":260,"h":288},"list":{"x":260,"y":108,"w":556,"h":336},"detailGeo":{"x":0,"y":444,"w":816,"h":180},"zoneItems":["All Zones","Forest Zone","Coastal Zone","Demon Zone","Desolate Zone","Desert Zone","Mythic Zone"],"listRows":306,"active":true,"detail":{"code":"A1","zone":"A","sw":901,"name":"Liar Liar","trig":"Lie to the mansion owner"},"headerText":true}
+  ok    four panes are laid out
+  ok    panes do not overlap
+  ok    the zone list is All Zones + the six zones
+  ok    the list shows every ending in "All Zones"
+  ok    the list starts active
+  ok    the detail pane is showing the first ending
+  ok    picking Forest Zone narrows the list to A1..A17
+  ok    A1 is found and A3 is still hidden
+  ok    OK marks an ending, OK again clears it
+  ok    cancel leaves the gallery
+--- the title command ---
+  [{"n":"New Game","s":"newGame"},{"n":"Continue","s":"continue"},{"n":"Cheats","s":"passwords"},{"n":"Bad Ends","s":"achieve"},{"n":"Options","s":"options"}]
+  ok    the title screen has the Achieve entry
+  ok    the Achieve entry opens the gallery
+  ok    picturecheck and Scene_Picture_Gallery now exist, as 0091.rb expects
+--- plugin commands ---
+  ok    BadEnds mark / unmark / count work
+--- the unlock toast ---
+  ok    back on the map for the toast test
+  ok    a new ending pops a toast on the map
+--- errors ---
+  ok    no page errors
+
+BAD END PROBE PASSED

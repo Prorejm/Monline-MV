@@ -1,0 +1,3219 @@
+{
+ "A1": {
+  "name": "Liar Liar",
+  "sw": 901,
+  "swAll": [
+   901
+  ],
+  "where": [
+   "Map020|Cow Lover"
+  ]
+ },
+ "A2": {
+  "name": "Addiction",
+  "sw": 902,
+  "swAll": [
+   902
+  ],
+  "where": [
+   "Map015|Holstarus Fighter",
+   "Map083|Holstaurus",
+   "Map083|Holstaurus",
+   "Map083|Holstaurus"
+  ]
+ },
+ "A3": {
+  "name": "Honey Trap",
+  "sw": 903,
+  "swAll": [
+   903
+  ],
+  "where": [
+   "Map013|EV024",
+   "Map013|EV026",
+   "Map013|EV027",
+   "Map013|EV028"
+  ]
+ },
+ "A4": {
+  "name": "A True Honor",
+  "sw": 904,
+  "swAll": [
+   904
+  ],
+  "where": [
+   "Map024|Hornet TFer"
+  ]
+ },
+ "A5": {
+  "name": "Absolute Power",
+  "sw": 905,
+  "swAll": [
+   905
+  ],
+  "where": [
+   "Map025|Arachne",
+   "Map083|Arachne"
+  ]
+ },
+ "A6": {
+  "name": "Slice of life",
+  "sw": 906,
+  "swAll": [
+   906
+  ],
+  "where": [
+   "CE1|Mouse TF"
+  ]
+ },
+ "A7": {
+  "name": "Fluid Hunt",
+  "sw": 907,
+  "swAll": [
+   907
+  ],
+  "where": [
+   "Map042|Blue Slime",
+   "Map083|Slime"
+  ]
+ },
+ "A8": {
+  "name": "Stay Awhile and Listen",
+  "sw": 1023,
+  "swAll": [
+   1023
+  ],
+  "where": [
+   "Map362|Tutorial End",
+   "Map362|Tutorial End",
+   "Map362|Tutorial End"
+  ]
+ },
+ "A9": {
+  "name": "Hooters",
+  "sw": 1024,
+  "swAll": [
+   1024
+  ],
+  "where": [
+   "Map034|Owl Mage",
+   "Map083|Owl Mage"
+  ]
+ },
+ "A10": {
+  "name": "A Ribbiting Existence",
+  "sw": 1041,
+  "swAll": [
+   1041
+  ],
+  "where": [
+   "Map033|Frog Princess TF"
+  ]
+ },
+ "A11": {
+  "name": "Sweet Behind",
+  "sw": 1042,
+  "swAll": [
+   1042
+  ],
+  "where": [
+   "Map022|Bee Event"
+  ]
+ },
+ "A12": {
+  "name": "Pillars to the Temple",
+  "sw": 1044,
+  "swAll": [
+   1044
+  ],
+  "where": [
+   "Map014|Greenhouse Door",
+   "Map083|Greenworm"
+  ]
+ },
+ "A13": {
+  "name": "A Cat is Fine Too",
+  "sw": 1081,
+  "swAll": [
+   1081
+  ],
+  "where": [
+   "Map083|Werecat",
+   "Map389|Owner Fight"
+  ]
+ },
+ "A14": {
+  "name": "Cat Called",
+  "sw": 1082,
+  "swAll": [
+   1082
+  ],
+  "where": [
+   "Map389|Wild Werecat End"
+  ]
+ },
+ "A15": {
+  "name": "Feline Fine",
+  "sw": 1083,
+  "swAll": [
+   1083
+  ],
+  "where": [
+   "Map389|Wild Werecat End"
+  ]
+ },
+ "A16": {
+  "name": "Heavy Petting",
+  "sw": 1084,
+  "swAll": [
+   1084
+  ],
+  "where": [
+   "Map016|Cat Auto",
+   "Map083|Werecat"
+  ]
+ },
+ "A17": {
+  "name": "The Cat's Meow",
+  "sw": 1085,
+  "swAll": [
+   1085
+  ],
+  "where": [
+   "Map016|Cat Auto",
+   "Map083|Werecat"
+  ]
+ },
+ "B1": {
+  "name": "The Littlest Mermaid",
+  "sw": 908,
+  "swAll": [
+   908
+  ],
+  "where": [
+   "Map038|Mermaid <Sensor7>",
+   "Map038|Mermaid <Sensor7>",
+   "Map038|Mermaid <Sensor7>",
+   "Map038|Mermaid <Sensor7>"
+  ]
+ },
+ "B2": {
+  "name": "Beneath the Light",
+  "sw": 1017,
+  "swAll": [
+   1017
+  ],
+  "where": [
+   "Map035|Mermaid Shell Auto",
+   "Map038|Unknown TP",
+   "Map348|Auto"
+  ]
+ },
+ "B3": {
+  "name": "'Under da Sea'",
+  "sw": 909,
+  "swAll": [
+   909
+  ],
+  "where": [
+   "Map049|Mermaid Friend"
+  ]
+ },
+ "B4": {
+  "name": "Plenty of Fish in the Sea",
+  "sw": 910,
+  "swAll": [
+   910
+  ],
+  "where": [
+   "Map044|Sea Bishop Event",
+   "Map083|Sea Bishop"
+  ]
+ },
+ "B5": {
+  "name": "The Catch of a Lifetime",
+  "sw": 1020,
+  "swAll": [
+   1020
+  ],
+  "where": [
+   "Map375|Fire Pit"
+  ]
+ },
+ "B6": {
+  "name": "Charybdis Chow",
+  "sw": 911,
+  "swAll": [
+   911
+  ],
+  "where": [
+   "Map038|Charybdis Pull <Sensor6>",
+   "Map083|Charybdis"
+  ]
+ },
+ "B7": {
+  "name": "Boredom",
+  "sw": 912,
+  "swAll": [
+   912
+  ],
+  "where": [
+   "Map038|Charybdis Pull <Sensor6>",
+   "Map083|Scylla"
+  ]
+ },
+ "B8": {
+  "name": "Outlet of Love",
+  "sw": 1019,
+  "swAll": [
+   1019
+  ],
+  "where": [
+   "Map038|Charybdis Pull <Sensor6>",
+   "Map083|Scylla"
+  ]
+ },
+ "B9": {
+  "name": "Deep Dark Depths",
+  "sw": 913,
+  "swAll": [
+   913
+  ],
+  "where": [
+   "Map038|Kraken Main",
+   "Map083|Kraken"
+  ]
+ },
+ "B10": {
+  "name": "Die with Dignity?",
+  "sw": 913,
+  "swAll": [
+   913,
+   914
+  ],
+  "where": [
+   "Map038|Kraken Main",
+   "Map083|Kraken"
+  ]
+ },
+ "B11": {
+  "name": "The Saviour",
+  "sw": 1021,
+  "swAll": [
+   1021
+  ],
+  "where": [
+   "Map038|Kraken Main",
+   "Map083|Kraken"
+  ]
+ },
+ "B12": {
+  "name": "Magic Cucumber",
+  "sw": 915,
+  "swAll": [
+   915
+  ],
+  "where": [
+   "Map056|Kappa",
+   "Map056|Kappa",
+   "Map056|Kappa",
+   "Map056|Kappa"
+  ]
+ },
+ "B13": {
+  "name": "Kappativated",
+  "sw": 1018,
+  "swAll": [
+   1018
+  ],
+  "where": [
+   "Map061|Auto 2",
+   "Map083|Kappa"
+  ]
+ },
+ "B14": {
+  "name": "One Track Mind",
+  "sw": 916,
+  "swAll": [
+   916
+  ],
+  "where": [
+   "Map061|Saha End",
+   "Map083|Sahagin"
+  ]
+ },
+ "B15": {
+  "name": "Sisters in Crime",
+  "sw": 917,
+  "swAll": [
+   917
+  ],
+  "where": [
+   "Map057|Alaru Nereid Fight",
+   "Map083|Nereid"
+  ]
+ },
+ "B16": {
+  "name": "Backup Singer",
+  "sw": 918,
+  "swAll": [
+   918,
+   708
+  ],
+  "where": [
+   "Map062|Siren",
+   "Map062|Siren",
+   "Map083|Siren"
+  ]
+ },
+ "B17": {
+  "name": "Flow Rider",
+  "sw": 919,
+  "swAll": [
+   919
+  ],
+  "where": [
+   "Map038|Sea Slime Event",
+   "Map083|Sea Slime"
+  ]
+ },
+ "B18": {
+  "name": "A Clean Slate",
+  "sw": 1034,
+  "swAll": [
+   1034
+  ],
+  "where": [
+   "Map035|Mermaid Shell",
+   "Map083|Crab Girl"
+  ]
+ },
+ "B19": {
+  "name": "Coconut Grass",
+  "sw": 1035,
+  "swAll": [
+   1035
+  ],
+  "where": [
+   "Map036|Hula Girl"
+  ]
+ },
+ "B20": {
+  "name": "Humans is Stupid",
+  "sw": 1038,
+  "swAll": [
+   1038
+  ],
+  "where": [
+   "Map083|Sahaguin Boss",
+   "Map386|Auto 2",
+   "Map386|Sahaguin Raider 3 <Sensor2>"
+  ]
+ },
+ "B21": {
+  "name": "Saltwater Sweetie",
+  "sw": 1039,
+  "swAll": [
+   1039
+  ],
+  "where": [
+   "Map083|Flow Kelp",
+   "Map386|Flow Kelp Attack"
+  ]
+ },
+ "B22": {
+  "name": "Love Beneath the Gaslight",
+  "sw": 1040,
+  "swAll": [
+   1040
+  ],
+  "where": [
+   "Map083|Sahaguin Boss",
+   "Map386|Auto 3"
+  ]
+ },
+ "B23": {
+  "name": "Physician, H-Eel Thyself",
+  "sw": 1043,
+  "swAll": [
+   1043
+  ],
+  "where": [
+   "Map083|Sahaguin Boss",
+   "Map386|Auto 4"
+  ]
+ },
+ "C1": {
+  "name": "Impressive",
+  "sw": 920,
+  "swAll": [
+   920
+  ],
+  "where": [
+   "Map064|Sex Imp",
+   "Map083|Imp",
+   "Map372|Sex Imp"
+  ]
+ },
+ "C2": {
+  "name": "Imprisioned",
+  "sw": 921,
+  "swAll": [
+   921
+  ],
+  "where": [
+   "Map066|Imp Fight (Late)",
+   "Map066|Imp Fight (In Time)",
+   "Map083|Arch Imp",
+   "Map083|Arch Imp"
+  ]
+ },
+ "C3": {
+  "name": "Good Impression",
+  "sw": 922,
+  "swAll": [
+   922
+  ],
+  "where": [
+   "Map066|Imp Fight (Late)",
+   "Map083|Arch Imp"
+  ]
+ },
+ "C4": {
+  "name": "Predator's Prey",
+  "sw": 1022,
+  "swAll": [
+   1022
+  ],
+  "where": [
+   "Map065|Succbui Warden 1",
+   "Map065|Succbui Warden 2",
+   "Map065|Succbui Warden 3",
+   "Map065|Succbui Warden 4"
+  ]
+ },
+ "C5": {
+  "name": "What a Tool",
+  "sw": 923,
+  "swAll": [
+   923
+  ],
+  "where": [
+   "Map070|Stairs Event",
+   "Map090|Lesser Succubus"
+  ]
+ },
+ "C6": {
+  "name": "Every Suck You Take",
+  "sw": 924,
+  "swAll": [
+   924
+  ],
+  "where": [
+   "Map070|Gate 3"
+  ]
+ },
+ "C7": {
+  "name": "Self Made King",
+  "sw": 925,
+  "swAll": [
+   925
+  ],
+  "where": [
+   "Map071|Caged Ending"
+  ]
+ },
+ "C8": {
+  "name": "Pipe Dreams of Wet Dreams",
+  "sw": 926,
+  "swAll": [
+   926
+  ],
+  "where": [
+   "Map367|Succubus Amy"
+  ]
+ },
+ "C9": {
+  "name": "Banana Split",
+  "sw": 927,
+  "swAll": [
+   927
+  ],
+  "where": [
+   "CE38|Split Scroll"
+  ]
+ },
+ "C10": {
+  "name": "Head Hunting",
+  "sw": 1025,
+  "swAll": [
+   1025
+  ],
+  "where": [
+   "Map374|Lust Overload 2/2"
+  ]
+ },
+ "C11": {
+  "name": "Reroll",
+  "sw": 1026,
+  "swAll": [
+   1026
+  ],
+  "where": [
+   "Map090|Succubus",
+   "Map374|Amarya Fight"
+  ]
+ },
+ "C12": {
+  "name": "Filled with Faith",
+  "sw": 1027,
+  "swAll": [
+   1027
+  ],
+  "where": [
+   "Map072|Nun End",
+   "Map090|Dark Priest",
+   "Map376|Nun End"
+  ]
+ },
+ "C13": {
+  "name": "Keeper of Confessions",
+  "sw": 931,
+  "swAll": [
+   931
+  ],
+  "where": [
+   "Map072|DP End 6"
+  ]
+ },
+ "C14": {
+  "name": "The Flower Clad in Black",
+  "sw": 1036,
+  "swAll": [
+   1036
+  ],
+  "where": [
+   "Map090|Dark Priest",
+   "Map377|Roper Fight <Sensor3>"
+  ]
+ },
+ "C15": {
+  "name": "Resistance is Futile",
+  "sw": 932,
+  "swAll": [
+   932
+  ],
+  "where": [
+   "Map090|Roper",
+   "Map377|Roper End"
+  ]
+ },
+ "C16": {
+  "name": "Heaven on Earth",
+  "sw": 928,
+  "swAll": [
+   928
+  ],
+  "where": [
+   "Map076|EV004"
+  ]
+ },
+ "C17": {
+  "name": "Hell is Other People",
+  "sw": 929,
+  "swAll": [
+   929
+  ],
+  "where": [
+   "Map075|Auto"
+  ]
+ },
+ "C18": {
+  "name": "Bridging the Gap",
+  "sw": 930,
+  "swAll": [
+   930,
+   720
+  ],
+  "where": [
+   "Map069|New Auto",
+   "Map090|Angel",
+   "Map090|Dark Angel"
+  ]
+ },
+ "C19": {
+  "name": "Like no one ever was",
+  "sw": 1028,
+  "swAll": [
+   1028
+  ],
+  "where": [
+   "Map080|GB End"
+  ]
+ },
+ "C20": {
+  "name": "Ambience",
+  "sw": 933,
+  "swAll": [
+   933
+  ],
+  "where": [
+   "Map078|Piano End"
+  ]
+ },
+ "C21": {
+  "name": "Poster Girl",
+  "sw": 936,
+  "swAll": [
+   936
+  ],
+  "where": [
+   "Map077|Witchery",
+   "Map090|Witch"
+  ]
+ },
+ "C22": {
+  "name": "Broom Rider",
+  "sw": 937,
+  "swAll": [
+   937
+  ],
+  "where": [
+   "Map077|Witchery",
+   "Map090|Witch"
+  ]
+ },
+ "C23": {
+  "name": "Attack of the Living Dildo!",
+  "sw": 934,
+  "swAll": [
+   934
+  ],
+  "where": [
+   "Map078|Wardrobe Danger"
+  ]
+ },
+ "C24": {
+  "name": "On the Flipside",
+  "sw": 935,
+  "swAll": [
+   935
+  ],
+  "where": [
+   "CE41|Weaken Potion"
+  ]
+ },
+ "C25": {
+  "name": "Baphomet's Boytoy",
+  "sw": 938,
+  "swAll": [
+   938
+  ],
+  "where": [
+   "CE41|Weaken Potion",
+   "Map078|Outta Time"
+  ]
+ },
+ "C26": {
+  "name": "In the Driver's Seat",
+  "sw": 1029,
+  "swAll": [
+   1029
+  ],
+  "where": [
+   "Map078|Baphomet Ritual",
+   "Map090|Baphomet"
+  ]
+ },
+ "C27": {
+  "name": "Backseat Driver",
+  "sw": 1030,
+  "swAll": [
+   1030
+  ],
+  "where": [
+   "Map078|Baphomet Ritual",
+   "Map090|Baphomet"
+  ]
+ },
+ "C28": {
+  "name": "Na na na na na na na na Were-Bat!",
+  "sw": 940,
+  "swAll": [
+   940
+  ],
+  "where": [
+   "Map083|Were-Bat",
+   "Map092|Were-Bat",
+   "Map092|Were-Bat",
+   "Map092|Were-Bat"
+  ]
+ },
+ "C29": {
+  "name": "Snap Trapper",
+  "sw": 939,
+  "swAll": [
+   939
+  ],
+  "where": [
+   "Map095|Croc 1 <Sensor2>",
+   "Map095|Croc 2 <Sensor2>",
+   "Map095|Croc 3 <Sensor2>"
+  ]
+ },
+ "C30": {
+  "name": "Gator Gangbanger",
+  "sw": 1031,
+  "swAll": [
+   1031
+  ],
+  "where": [
+   "Map083|Stranger",
+   "Map095|Biker EV 2"
+  ]
+ },
+ "C31": {
+  "name": "Once Bitten",
+  "sw": 941,
+  "swAll": [
+   941
+  ],
+  "where": [
+   "Map083|Dhampir",
+   "Map094|Dhampir Stationary 1",
+   "Map094|Dhampir Stationary 2",
+   "Map094|Dhampir Stationary 3"
+  ]
+ },
+ "C32": {
+  "name": "Pale Maiden",
+  "sw": 942,
+  "swAll": [
+   942
+  ],
+  "where": [
+   "Map384|Alaru Maid End"
+  ]
+ },
+ "C33": {
+  "name": "Drowned Regret",
+  "sw": 943,
+  "swAll": [
+   943
+  ],
+  "where": [
+   "Map097|Stain 1"
+  ]
+ },
+ "C34": {
+  "name": "Her Legacy",
+  "sw": 1032,
+  "swAll": [
+   1032
+  ],
+  "where": [
+   "Map093|Vamp Alaru End"
+  ]
+ },
+ "C35": {
+  "name": "Blue Blooded",
+  "sw": 1033,
+  "swAll": [
+   1033
+  ],
+  "where": [
+   "Map097|Mother's Door"
+  ]
+ },
+ "C36": {
+  "name": "In Control",
+  "sw": 944,
+  "swAll": [
+   944
+  ],
+  "where": [
+   "Map083|Dark Slime",
+   "Map098|Dark Slime"
+  ]
+ },
+ "C37": {
+  "name": "A Tale as Old as Time",
+  "sw": 1037,
+  "swAll": [
+   1037
+  ],
+  "where": [
+   "Map094|Library End"
+  ]
+ },
+ "C38": {
+  "name": "Love Bitten",
+  "sw": 1045,
+  "swAll": [
+   1045
+  ],
+  "where": [
+   "Map083|Mosquito",
+   "Map091|Mosquito Victim"
+  ]
+ },
+ "D1": {
+  "name": "The Zombie Whored",
+  "sw": 945,
+  "swAll": [
+   945
+  ],
+  "where": [
+   "CE6|Zombie Horde"
+  ]
+ },
+ "D2": {
+  "name": "From My Cold Dead Hands",
+  "sw": 946,
+  "swAll": [
+   946
+  ],
+  "where": [
+   "CE9|Zombie End"
+  ]
+ },
+ "D3": {
+  "name": "Let Me Patch You Up",
+  "sw": 947,
+  "swAll": [
+   947
+  ],
+  "where": [
+   "CE9|Zombie End"
+  ]
+ },
+ "D4": {
+  "name": "Quest for the Cure",
+  "sw": 948,
+  "swAll": [
+   948
+  ],
+  "where": [
+   "Map106|Zombie Subject Event"
+  ]
+ },
+ "D5": {
+  "name": "Drop Dead Gorgeous",
+  "sw": 949,
+  "swAll": [
+   949
+  ],
+  "where": [
+   "CE9|Zombie End"
+  ]
+ },
+ "D6": {
+  "name": "Till Death Do Us Part",
+  "sw": 950,
+  "swAll": [
+   950
+  ],
+  "where": [
+   "CE9|Zombie End"
+  ]
+ },
+ "D7": {
+  "name": "Burger Baroness",
+  "sw": 951,
+  "swAll": [
+   951
+  ],
+  "where": [
+   "Map120|Register",
+   "Map438|Register",
+   "Map453|Register"
+  ]
+ },
+ "D8": {
+  "name": "All better now?",
+  "sw": 952,
+  "swAll": [
+   952
+  ],
+  "where": [
+   "Map107|Nurse End"
+  ]
+ },
+ "D9": {
+  "name": "Bisexual Healing",
+  "sw": 953,
+  "swAll": [
+   953
+  ],
+  "where": [
+   "Map108|Nurse 1"
+  ]
+ },
+ "D10": {
+  "name": "Squeaky Wheel Needs Grease",
+  "sw": 954,
+  "swAll": [
+   954
+  ],
+  "where": [
+   "CE12|Wheelchair End",
+   "Map126|Kikimora TF"
+  ]
+ },
+ "D11": {
+  "name": "A Rock and a Hard Place",
+  "sw": 955,
+  "swAll": [
+   955
+  ],
+  "where": [
+   "Map121|Auto",
+   "Map123|Dullahan"
+  ]
+ },
+ "D12": {
+  "name": "Boys will be Boys",
+  "sw": 956,
+  "swAll": [
+   956
+  ],
+  "where": [
+   "Map120|Estro Chest"
+  ]
+ },
+ "D13": {
+  "name": "Stuck in Another World\\fi2",
+  "sw": 957,
+  "swAll": [
+   957
+  ],
+  "where": [
+   "Map276|Orc Attack!"
+  ]
+ },
+ "D14": {
+  "name": "Pressed Wallflower",
+  "sw": 958,
+  "swAll": [
+   958
+  ],
+  "where": [
+   "Map171|Auto"
+  ]
+ },
+ "D15": {
+  "name": "Nice or Naughty?",
+  "sw": 959,
+  "swAll": [
+   959
+  ],
+  "where": [
+   "Map218|Auto ",
+   "Map218|Auto ",
+   "Map218|Auto "
+  ]
+ },
+ "D16": {
+  "name": "Naughty or Nice?",
+  "sw": 960,
+  "swAll": [
+   960
+  ],
+  "where": [
+   "Map218|Auto ",
+   "Map218|Auto ",
+   "Map218|Auto "
+  ]
+ },
+ "D17": {
+  "name": "Reindeer Games",
+  "sw": 961,
+  "swAll": [
+   961
+  ],
+  "where": [
+   "Map218|Auto "
+  ]
+ },
+ "D18": {
+  "name": "By the Reins",
+  "sw": 962,
+  "swAll": [
+   962
+  ],
+  "where": [
+   "Map216|Reindeer TF"
+  ]
+ },
+ "D19": {
+  "name": "Spineless",
+  "sw": 963,
+  "swAll": [
+   963
+  ],
+  "where": [
+   "Map151|Skeletal Hands 3",
+   "Map151|Skeletal Hands 1",
+   "Map151|Skeletal Hands 2"
+  ]
+ },
+ "D20": {
+  "name": "A Bloody Mess",
+  "sw": 964,
+  "swAll": [
+   964
+  ],
+  "where": [
+   "Map083|Ghoul",
+   "Map151|Ghoul"
+  ]
+ },
+ "D21": {
+  "name": "Queen Bitch",
+  "sw": 965,
+  "swAll": [
+   965
+  ],
+  "where": [
+   "Map172|Alpha"
+  ]
+ },
+ "D22": {
+  "name": "A Heated Affair",
+  "sw": 966,
+  "swAll": [
+   966
+  ],
+  "where": [
+   "Map172|Dog End"
+  ]
+ },
+ "D23": {
+  "name": "Dancing to a Different Tune",
+  "sw": 967,
+  "swAll": [
+   967
+  ],
+  "where": [
+   "CE15|Drunkenness"
+  ]
+ },
+ "D24": {
+  "name": "Bouncing Busts of Blonde Bimbo Bunnies",
+  "sw": 968,
+  "swAll": [
+   968
+  ],
+  "where": [
+   "Map156|Bunny Slut End"
+  ]
+ },
+ "D25": {
+  "name": "Cottontail",
+  "sw": 969,
+  "swAll": [
+   969
+  ],
+  "where": [
+   "Map158|No Suit"
+  ]
+ },
+ "D26": {
+  "name": "How I learned to stop",
+  "sw": 970,
+  "swAll": [
+   970
+  ],
+  "where": [
+   "Map157|Parasite",
+   "Map157|Parasite",
+   "Map157|Parasite",
+   "Map157|Parasite"
+  ]
+ },
+ "D27": {
+  "name": "Slimed and Mind",
+  "sw": 971,
+  "swAll": [
+   971
+  ],
+  "where": [
+   "Map135|Parasite Boss"
+  ]
+ },
+ "D28": {
+  "name": "Trapped!",
+  "sw": 972,
+  "swAll": [
+   972
+  ],
+  "where": [
+   "Map159|Kimcubbus",
+   "Map159|Kimcubbus",
+   "Map159|Kimcubbus no escape",
+   "Map159|Kimcubbus no escape"
+  ]
+ },
+ "D29": {
+  "name": "Corrupted",
+  "sw": 973,
+  "swAll": [
+   973
+  ],
+  "where": [
+   "Map173|Kimcubus"
+  ]
+ },
+ "D30": {
+  "name": "A Lust for Gold",
+  "sw": 974,
+  "swAll": [
+   974
+  ],
+  "where": [
+   "Map083|Mimic",
+   "Map167|Mimic",
+   "Map167|Mimic"
+  ]
+ },
+ "D31": {
+  "name": "It's a trap!",
+  "sw": 975,
+  "swAll": [
+   975
+  ],
+  "where": [
+   "Map167|True Mimic "
+  ]
+ },
+ "D32": {
+  "name": "No Strings Attached",
+  "sw": 976,
+  "swAll": [
+   976
+  ],
+  "where": [
+   "Map168|Marionette End"
+  ]
+ },
+ "D33": {
+  "name": "Bustin' Makes Me Feel Good!",
+  "sw": 977,
+  "swAll": [
+   977
+  ],
+  "where": [
+   "Map083|Ghost",
+   "Map169|Ghost Event"
+  ]
+ },
+ "D34": {
+  "name": "Dolls Aren't Just for Little Girls!",
+  "sw": 978,
+  "swAll": [
+   978
+  ],
+  "where": [
+   "Map083|Living Doll",
+   "Map168|Puppet Mistress"
+  ]
+ },
+ "D35": {
+  "name": "A Match Forced in Heaven",
+  "sw": 979,
+  "swAll": [
+   979
+  ],
+  "where": [
+   "Map150|Wedding"
+  ]
+ },
+ "D36": {
+  "name": "Unholy Matrimony",
+  "sw": 980,
+  "swAll": [
+   980
+  ],
+  "where": [
+   "Map210|Auto"
+  ]
+ },
+ "D37": {
+  "name": "Linked by Love",
+  "sw": 981,
+  "swAll": [
+   981
+  ],
+  "where": [
+   "Map210|Auto"
+  ]
+ },
+ "D38": {
+  "name": "I am the Law!",
+  "sw": 982,
+  "swAll": [
+   982
+  ],
+  "where": [
+   "Map203|Police Event"
+  ]
+ },
+ "D39": {
+  "name": "Default Settings",
+  "sw": 1056,
+  "swAll": [
+   1056
+  ],
+  "where": [
+   "Map090|Automaton",
+   "Map125|R3V-I <Sensor6>",
+   "Map129|A1K-0 <Sensor5>"
+  ]
+ },
+ "D40": {
+  "name": "Quarantined",
+  "sw": 1057,
+  "swAll": [
+   1057
+  ],
+  "where": [
+   "Map090|Automaton",
+   "Map125|R3V-I <Sensor6>",
+   "Map129|A1K-0 <Sensor5>"
+  ]
+ },
+ "D41": {
+  "name": "Self-Made Girl",
+  "sw": 1058,
+  "swAll": [
+   1058
+  ],
+  "where": [
+   "Map132|Morgan"
+  ]
+ },
+ "D42": {
+  "name": "Conversion Therapy",
+  "sw": 1059,
+  "swAll": [
+   1059
+  ],
+  "where": [
+   "Map132|Morgan"
+  ]
+ },
+ "D43": {
+  "name": "Future Shock",
+  "sw": 1060,
+  "swAll": [
+   1060
+  ],
+  "where": [
+   "Map090|PROXI",
+   "Map131|PXE Save"
+  ]
+ },
+ "D44": {
+  "name": "Danse Mechabre",
+  "sw": 1061,
+  "swAll": [
+   1061
+  ],
+  "where": [
+   "Map122|DC End 2"
+  ]
+ },
+ "D45": {
+  "name": "A Step Forward",
+  "sw": 1062,
+  "swAll": [
+   1062
+  ],
+  "where": [
+   "Map125|Lina Timer"
+  ]
+ },
+ "D46": {
+  "name": "B1MB-0",
+  "sw": 1063,
+  "swAll": [
+   1063
+  ],
+  "where": [
+   "Map122|Bimbot End 2"
+  ]
+ },
+ "D47": {
+  "name": "Cherry Fairy",
+  "sw": 1064,
+  "swAll": [
+   1064
+  ],
+  "where": [
+   "Map090|Lina",
+   "Map130|Lina"
+  ]
+ },
+ "D48": {
+  "name": "Ganguro Goddess",
+  "sw": 1065,
+  "swAll": [
+   1065
+  ],
+  "where": [
+   "Map136|Ganguro Guy"
+  ]
+ },
+ "D49": {
+  "name": "Don't lose your head!",
+  "sw": 1066,
+  "swAll": [
+   1066
+  ],
+  "where": [
+   "Map137|Mara Ascend"
+  ]
+ },
+ "D50": {
+  "name": "Lab Rat",
+  "sw": 1067,
+  "swAll": [
+   1067
+  ],
+  "where": [
+   "Map165|Food 2"
+  ]
+ },
+ "D51": {
+  "name": "Out of Touch",
+  "sw": 1068,
+  "swAll": [
+   1068
+  ],
+  "where": [
+   "Map170|Auto Touch"
+  ]
+ },
+ "D52": {
+  "name": "Know Your Own Mind",
+  "sw": 1069,
+  "swAll": [
+   1069
+  ],
+  "where": [
+   "Map137|Lich End Auto"
+  ]
+ },
+ "D53": {
+  "name": "Respawned",
+  "sw": 1070,
+  "swAll": [
+   1070
+  ],
+  "where": [
+   "Map176|Auto"
+  ]
+ },
+ "D54": {
+  "name": "I know this Pretty Rave Girl",
+  "sw": 1071,
+  "swAll": [
+   1071
+  ],
+  "where": [
+   "Map395|Lead Dancer"
+  ]
+ },
+ "D55": {
+  "name": "Wet Nurse",
+  "sw": 1072,
+  "swAll": [
+   1072
+  ],
+  "where": [
+   "Map108|Olsen End"
+  ]
+ },
+ "D56": {
+  "name": "What the Doctor Ordered",
+  "sw": 1073,
+  "swAll": [
+   1073
+  ],
+  "where": [
+   "Map108|Olsen End"
+  ]
+ },
+ "D57": {
+  "name": "Moonlit Dreams",
+  "sw": 1074,
+  "swAll": [
+   1074
+  ],
+  "where": [
+   "Map152|Wolf Brute",
+   "Map152|Wolf Brute"
+  ]
+ },
+ "D58": {
+  "name": "Homegrown Hunter",
+  "sw": 1075,
+  "swAll": [
+   1075
+  ],
+  "where": [
+   "Map161|Kimcubbus"
+  ]
+ },
+ "D59": {
+  "name": "The Implication",
+  "sw": 1076,
+  "swAll": [
+   1076
+  ],
+  "where": [
+   "Map162|Kimcubbus"
+  ]
+ },
+ "D60": {
+  "name": "Fucking Evil But Still Tight",
+  "sw": 1077,
+  "swAll": [
+   1077
+  ],
+  "where": [
+   "Map178|DSQ Kimara"
+  ]
+ },
+ "D61": {
+  "name": "Always Fighting For What's Right!",
+  "sw": 1078,
+  "swAll": [
+   1078
+  ],
+  "where": [
+   "Map178|DSQ Kimara"
+  ]
+ },
+ "D62": {
+  "name": "Clad in Latex and Midnight",
+  "sw": 1079,
+  "swAll": [
+   1079
+  ],
+  "where": [
+   "CE13|Magical Girl Transform"
+  ]
+ },
+ "D63": {
+  "name": "Joystuck",
+  "sw": 1080,
+  "swAll": [
+   1080
+  ],
+  "where": [
+   "Map120|Joystuck End",
+   "Map438|Joystuck End"
+  ]
+ },
+ "D64": {
+  "name": "Beware the Dog",
+  "sw": 1102,
+  "swAll": [
+   1102
+  ],
+  "where": [
+   "Map442|Endings"
+  ]
+ },
+ "D65": {
+  "name": "Nippon Daisuki",
+  "sw": 1103,
+  "swAll": [
+   1103
+  ],
+  "where": [
+   "Map445|Collared Schoolgirl Asian"
+  ]
+ },
+ "D66": {
+  "name": "Milk of Human Kindness",
+  "sw": 1104,
+  "swAll": [
+   1104
+  ],
+  "where": [
+   "Map445|Collared Cow"
+  ]
+ },
+ "D67": {
+  "name": "Pavlov's Puppy",
+  "sw": 1105,
+  "swAll": [
+   1105
+  ],
+  "where": [
+   "Map445|Collared Kim"
+  ]
+ },
+ "D68": {
+  "name": "New Girls Sweep Clean",
+  "sw": 1106,
+  "swAll": [
+   1106
+  ],
+  "where": [
+   "Map445|End Wash"
+  ]
+ },
+ "D69": {
+  "name": "Smothered",
+  "sw": 1107,
+  "swAll": [
+   1107
+  ],
+  "where": [
+   "Map445|Collared Cook"
+  ]
+ },
+ "D70": {
+  "name": "Running Red Lights",
+  "sw": 1108,
+  "swAll": [
+   1108
+  ],
+  "where": [
+   "Map435|Kacey"
+  ]
+ },
+ "D71": {
+  "name": "The dIzzy-ing Heights of Love",
+  "sw": 1109,
+  "swAll": [
+   1109
+  ],
+  "where": [
+   "Map445|Collared Desk Girl"
+  ]
+ },
+ "D72": {
+  "name": "Live like a Human, Die like a Dog",
+  "sw": 1110,
+  "swAll": [
+   1110
+  ],
+  "where": [
+   "Map442|Endings"
+  ]
+ },
+ "D73": {
+  "name": "This Town's Going to the Dogs",
+  "sw": 1111,
+  "swAll": [
+   1111
+  ],
+  "where": [
+   "Map442|Endings"
+  ]
+ },
+ "D74": {
+  "name": "Best in Show",
+  "sw": 1112,
+  "swAll": [
+   1112
+  ],
+  "where": [
+   "Map442|Endings"
+  ]
+ },
+ "D75": {
+  "name": "Bitch and Moan",
+  "sw": 1113,
+  "swAll": [
+   1113
+  ],
+  "where": [
+   "Map442|Endings"
+  ]
+ },
+ "D76": {
+  "name": "Like they do on the Discovery Channel",
+  "sw": 1114,
+  "swAll": [
+   1114
+  ],
+  "where": [
+   "Map447|PC Lose",
+   "Map447|PC Lose"
+  ]
+ },
+ "D77": {
+  "name": "Directive: Good Dog",
+  "sw": 1115,
+  "swAll": [
+   1115
+  ],
+  "where": [
+   "Map450|Gremlin 2"
+  ]
+ },
+ "D78": {
+  "name": "Star Crossed Lovers",
+  "sw": 1116,
+  "swAll": [
+   1116
+  ],
+  "where": [
+   "Map083|Romeo",
+   "Map448|Auto Event"
+  ]
+ },
+ "D79": {
+  "name": "Empty Vessels Make the Most Sound",
+  "sw": 1117,
+  "swAll": [
+   1117
+  ],
+  "where": [
+   "Map452|Auto 1"
+  ]
+ },
+ "D80": {
+  "name": "Bimbo Backfire",
+  "sw": 1118,
+  "swAll": [
+   1118
+  ],
+  "where": [
+   "Map452|Auto 2"
+  ]
+ },
+ "D81": {
+  "name": "Power Overwhelming",
+  "sw": 1119,
+  "swAll": [
+   1119
+  ],
+  "where": [
+   "CE53|Lina Bodyswap Ends"
+  ]
+ },
+ "D82": {
+  "name": "Ride or Die",
+  "sw": 1120,
+  "swAll": [
+   1120
+  ],
+  "where": [
+   "CE53|Lina Bodyswap Ends"
+  ]
+ },
+ "D83": {
+  "name": "Anthro Anthropology",
+  "sw": 1123,
+  "swAll": [
+   1123
+  ],
+  "where": [
+   "Map434|Rat End"
+  ]
+ },
+ "D84": {
+  "name": "Wearing a Plastic Smile",
+  "sw": 1124,
+  "swAll": [
+   1124
+  ],
+  "where": [
+   "Map453|Lights"
+  ]
+ },
+ "E1": {
+  "name": "Riddle Me This",
+  "sw": 983,
+  "swAll": [
+   983
+  ],
+  "where": [
+   "Map226|Sphinx"
+  ]
+ },
+ "E2": {
+  "name": "Twice as Bright, Half as Long",
+  "sw": 984,
+  "swAll": [
+   984
+  ],
+  "where": [
+   "Map090|Sphinx",
+   "Map181|Sphinx"
+  ]
+ },
+ "E3": {
+  "name": "The First of Nine.",
+  "sw": 985,
+  "swAll": [
+   985
+  ],
+  "where": [
+   "Map090|Sphinx",
+   "Map188|Sphinx Q 1"
+  ]
+ },
+ "E4": {
+  "name": "What's in a name?",
+  "sw": 986,
+  "swAll": [
+   986
+  ],
+  "where": [
+   "Map240|Auto"
+  ]
+ },
+ "E5": {
+  "name": "A Riddle wrapped in like, an Engima",
+  "sw": 987,
+  "swAll": [
+   987
+  ],
+  "where": [
+   "Map226|Sphinx"
+  ]
+ },
+ "E6": {
+  "name": "The Mummy's Boy",
+  "sw": 988,
+  "swAll": [
+   988
+  ],
+  "where": [
+   "Map090|Mummy",
+   "Map189|Mina Mummying"
+  ]
+ },
+ "E7": {
+  "name": "Are you my Mummy?",
+  "sw": 989,
+  "swAll": [
+   989
+  ],
+  "where": [
+   "Map090|Mummy",
+   "Map189|Mina Mummying"
+  ]
+ },
+ "E8": {
+  "name": "Singleminded",
+  "sw": 990,
+  "swAll": [
+   990
+  ],
+  "where": [
+   "Map230|Auto"
+  ]
+ },
+ "E9": {
+  "name": "A Sellers Market",
+  "sw": 991,
+  "swAll": [
+   991
+  ],
+  "where": [
+   "Map090|Anubis",
+   "Map191|Ven Scenario Setup"
+  ]
+ },
+ "E10": {
+  "name": "Anubintervention",
+  "sw": 992,
+  "swAll": [
+   992
+  ],
+  "where": [
+   "Map090|Anubis",
+   "Map191|Ven Scenario Setup"
+  ]
+ },
+ "E11": {
+  "name": "Pick Your Poison",
+  "sw": 993,
+  "swAll": [
+   993
+  ],
+  "where": [
+   "Map242|Manticore Partner"
+  ]
+ },
+ "E12": {
+  "name": "Cexigua",
+  "sw": 994,
+  "swAll": [
+   994
+  ],
+  "where": [
+   "Map083|Sandwurm",
+   "Map183|Sandwurm <Sensor4>",
+   "Map183|Sandwurm <Sensor4>",
+   "Map183|Sandwurm <Sensor4>"
+  ]
+ },
+ "E13": {
+  "name": "Surrogacy",
+  "sw": 995,
+  "swAll": [
+   995
+  ],
+  "where": [
+   "Map083|Ushi Oni",
+   "Map237|Ushi Oni <Sensor3>"
+  ]
+ },
+ "E14": {
+  "name": "When You're Least Expecting",
+  "sw": 996,
+  "swAll": [
+   996
+  ],
+  "where": [
+   "Map198|Echidna Pregnant End",
+   "Map225|Old Echidna Fight"
+  ]
+ },
+ "E15": {
+  "name": "Cock Roach",
+  "sw": 997,
+  "swAll": [
+   997
+  ],
+  "where": [
+   "Map083|Devil Bug",
+   "Map199|Devil Bug <Sensor1>",
+   "Map199|Devil Bug <Sensor1>",
+   "Map199|Devil Bug <Sensor1>"
+  ]
+ },
+ "E16": {
+  "name": "PermanAnt Residence",
+  "sw": 998,
+  "swAll": [
+   998,
+   745
+  ],
+  "where": [
+   "Map083|Ant Arachne",
+   "Map202|Ant Event"
+  ]
+ },
+ "E17": {
+  "name": "A Web of Lies",
+  "sw": 999,
+  "swAll": [
+   999
+  ],
+  "where": [
+   "Map083|Giant Ant",
+   "Map202|Ant Arachne"
+  ]
+ },
+ "E18": {
+  "name": "It's only Natural",
+  "sw": 1000,
+  "swAll": [
+   1000
+  ],
+  "where": [
+   "Map232|Jurassic Event",
+   "Map232|Jurassic Event",
+   "Map232|Jurassic Event"
+  ]
+ },
+ "E19": {
+  "name": "Go Down in Prehistory",
+  "sw": 1001,
+  "swAll": [
+   1001
+  ],
+  "where": [
+   "Map232|Jurassic Event"
+  ]
+ },
+ "E20": {
+  "name": "Outbreak",
+  "sw": 1002,
+  "swAll": [
+   1002
+  ],
+  "where": [
+   "CE24|Harem End"
+  ]
+ },
+ "E21": {
+  "name": "Pricked",
+  "sw": 1003,
+  "swAll": [
+   1003
+  ],
+  "where": [
+   "Map256|Cactus Lover 1"
+  ]
+ },
+ "E22": {
+  "name": "Ye Mighty, and Despair!",
+  "sw": 1004,
+  "swAll": [
+   1004
+  ],
+  "where": [
+   "Map255|Bikini Auto"
+  ]
+ },
+ "E23": {
+  "name": "One man's meat is one girl's poison.",
+  "sw": 1005,
+  "swAll": [
+   1005
+  ],
+  "where": [
+   "Map083|Girtablilu",
+   "Map262|Girtablilu <Sensor4>",
+   "Map262|Girtablilu <Sensor4>",
+   "Map262|Girtablilu <Sensor4>"
+  ]
+ },
+ "E24": {
+  "name": "Sting Operation",
+  "sw": 1006,
+  "swAll": [
+   1006
+  ],
+  "where": [
+   "CE43|Girtablilu Venom EV",
+   "CE43|Girtablilu Venom EV",
+   "CE43|Girtablilu Venom EV",
+   "CE43|Girtablilu Venom EV"
+  ]
+ },
+ "E25": {
+  "name": "Golden Girl",
+  "sw": 1007,
+  "swAll": [
+   1007
+  ],
+  "where": [
+   "Map227|Genie"
+  ]
+ },
+ "E26": {
+  "name": "Back to Reality",
+  "sw": 1008,
+  "swAll": [
+   1008
+  ],
+  "where": [
+   "Map227|Genie"
+  ]
+ },
+ "E27": {
+  "name": "Wish Granted",
+  "sw": 1009,
+  "swAll": [
+   1009
+  ],
+  "where": [
+   "Map229|Bedtime For Genie"
+  ]
+ },
+ "E28": {
+  "name": "Fallen Warrior",
+  "sw": 1010,
+  "swAll": [
+   1010
+  ],
+  "where": [
+   "Map083|Lizardwoman",
+   "Map183|Lizardwoman",
+   "Map183|Lizardwoman",
+   "Map183|Lizardwoman"
+  ]
+ },
+ "E29": {
+  "name": "Hot and Unbothered",
+  "sw": 1011,
+  "swAll": [
+   1011,
+   747
+  ],
+  "where": [
+   "Map223|Hot Spring Wash"
+  ]
+ },
+ "E30": {
+  "name": "Friends Forever, Stick Together",
+  "sw": 1012,
+  "swAll": [
+   1012
+  ],
+  "where": [
+   "Map207|Red Slime Growth"
+  ]
+ },
+ "E31": {
+  "name": "Heart of the Cards",
+  "sw": 1013,
+  "swAll": [
+   1013
+  ],
+  "where": [
+   "Map403|Auto"
+  ]
+ },
+ "E32": {
+  "name": "Fatal Fate",
+  "sw": 1014,
+  "swAll": [
+   1014
+  ],
+  "where": [
+   "Map193|Failure",
+   "Map193|Night Stalker",
+   "Map193|Failure 2"
+  ]
+ },
+ "E33": {
+  "name": "Boy Toyed With",
+  "sw": 1015,
+  "swAll": [
+   1015
+  ],
+  "where": [
+   "Map243|Warden Torture"
+  ]
+ },
+ "E34": {
+  "name": "Stuck in the Sexpot",
+  "sw": 1016,
+  "swAll": [
+   1016
+  ],
+  "where": [
+   "Map090|Pot Devil",
+   "Map245|Pot Hunting"
+  ]
+ },
+ "E35": {
+  "name": "The Walls have Eyes and Ears",
+  "sw": 1086,
+  "swAll": [
+   1086
+  ],
+  "where": [
+   "Map399|Auto"
+  ]
+ },
+ "E36": {
+  "name": "Judge Not, Lest ye be Judged",
+  "sw": 1087,
+  "swAll": [
+   1087
+  ],
+  "where": [
+   "Map090|Anubis",
+   "Map258|Judge"
+  ]
+ },
+ "E37": {
+  "name": "Living Vicariously is still Living",
+  "sw": 1088,
+  "swAll": [
+   1088
+  ],
+  "where": [
+   "Map090|Anubis",
+   "Map258|Judge"
+  ]
+ },
+ "E38": {
+  "name": "In the Lap of the Gods",
+  "sw": 1089,
+  "swAll": [
+   1089
+  ],
+  "where": [
+   "Map221|Auto"
+  ]
+ },
+ "E39": {
+  "name": "In the Grace of the Gods",
+  "sw": 1090,
+  "swAll": [
+   1090
+  ],
+  "where": [
+   "Map221|Auto"
+  ]
+ },
+ "E40": {
+  "name": "I wanna Melt in your Mouth",
+  "sw": 1091,
+  "swAll": [
+   1091
+  ],
+  "where": [
+   "Map400|Auto"
+  ]
+ },
+ "E41": {
+  "name": "Cooked to Perfection",
+  "sw": 1092,
+  "swAll": [
+   1092
+  ],
+  "where": [
+   "Map259|Cake Baking"
+  ]
+ },
+ "E42": {
+  "name": "Dancing for Tips",
+  "sw": 1093,
+  "swAll": [
+   1093
+  ],
+  "where": [
+   "Map261|Consort Morgan"
+  ]
+ },
+ "E43": {
+  "name": "Lover's Martyrdom",
+  "sw": 1094,
+  "swAll": [
+   1094
+  ],
+  "where": [
+   "Map090|Pharaoh",
+   "Map398|Pharaoh Farinet"
+  ]
+ },
+ "E44": {
+  "name": "Strap on the Feedbag",
+  "sw": 1095,
+  "swAll": [
+   1095
+  ],
+  "where": [
+   "Map235|Horse End"
+  ]
+ },
+ "E45": {
+  "name": "Hunger is the Best Sauce",
+  "sw": 1096,
+  "swAll": [
+   1096
+  ],
+  "where": [
+   "Map235|Door"
+  ]
+ },
+ "E46": {
+  "name": "Succubus of the Sands",
+  "sw": 1097,
+  "swAll": [
+   1097
+  ],
+  "where": [
+   "Map235|EndE46"
+  ]
+ },
+ "E47": {
+  "name": "Land of Milk and Honey",
+  "sw": 1098,
+  "swAll": [
+   1098
+  ],
+  "where": [
+   "Map083|Echidna",
+   "Map255|Echidna Hathor"
+  ]
+ },
+ "E48": {
+  "name": "Mother's Little Helpers",
+  "sw": 1099,
+  "swAll": [
+   1099
+  ],
+  "where": [
+   "Map402|Auto"
+  ]
+ },
+ "E49": {
+  "name": "Can't Teach the Mother to Lay Eggs",
+  "sw": 1100,
+  "swAll": [
+   1100
+  ],
+  "where": [
+   "Map402|Catgirl Victim?"
+  ]
+ },
+ "E50": {
+  "name": "It's a Long Story",
+  "sw": 1101,
+  "swAll": [
+   1101
+  ],
+  "where": [
+   "Map090|Khepri",
+   "Map401|Tar Flow 11/Door/EV"
+  ]
+ },
+ "E51": {
+  "name": "Desert Omens",
+  "sw": 1121,
+  "swAll": [
+   1121,
+   760
+  ],
+  "where": [
+   "Map179|Farinet's Curse",
+   "Map246|Curse End"
+  ]
+ },
+ "E52": {
+  "name": "Puffed up with Pride",
+  "sw": 1122,
+  "swAll": [
+   1122,
+   760
+  ],
+  "where": [
+   "Map246|Curse End"
+  ]
+ },
+ "F1": {
+  "name": "Bottom's Up!",
+  "sw": 1046,
+  "swAll": [
+   1046
+  ],
+  "where": [
+   "Map405|Hazelberry Wine Crate 2"
+  ]
+ },
+ "F2": {
+  "name": "Can't Make This Stuff Up!",
+  "sw": 1047,
+  "swAll": [
+   1047
+  ],
+  "where": [
+   "Map272|Stuffing Guard"
+  ]
+ },
+ "F3": {
+  "name": "Pretty as a Princess",
+  "sw": 1048,
+  "swAll": [
+   1048
+  ],
+  "where": [
+   "Map263|Auto"
+  ]
+ },
+ "F4": {
+  "name": "Hardon My French",
+  "sw": 1049,
+  "swAll": [
+   1049
+  ],
+  "where": [
+   "Map272|Maid Ends"
+  ]
+ },
+ "F5": {
+  "name": "If I Were a Boi",
+  "sw": 1050,
+  "swAll": [
+   1050
+  ],
+  "where": [
+   "Map272|Maid Ends"
+  ]
+ },
+ "F6": {
+  "name": "Cat Needs the Cradle",
+  "sw": 1051,
+  "swAll": [
+   1051
+  ],
+  "where": [
+   "Map272|Maid Ends"
+  ]
+ },
+ "F7": {
+  "name": "Know Your Place, Elfin Race",
+  "sw": 1052,
+  "swAll": [
+   1052
+  ],
+  "where": [
+   "Map272|Maid Ends"
+  ]
+ },
+ "F8": {
+  "name": "Trading Lives",
+  "sw": 1053,
+  "swAll": [
+   1053
+  ],
+  "where": [
+   "Map139|Tanuki Stealth"
+  ]
+ },
+ "F9": {
+  "name": "Taking the Rac",
+  "sw": 1054,
+  "swAll": [
+   1054
+  ],
+  "where": [
+   "Map272|Coon Bandit"
+  ]
+ },
+ "F10": {
+  "name": "Circle of Life",
+  "sw": 1055,
+  "swAll": [
+   1055
+  ],
+  "where": [
+   "Map142|Harpy 1 <Sensor3>",
+   "Map142|Harpy 2 <Sensor3>"
+  ]
+ },
+ "F11": {
+  "name": "The Featherweight Tramp",
+  "sw": 1125,
+  "swAll": [
+   1125
+  ],
+  "where": [
+   "Map329|Thug/HarpyEnd EV <Sensor2>"
+  ]
+ },
+ "F12": {
+  "name": "An Iron Grip",
+  "sw": 1126,
+  "swAll": [
+   1126
+  ],
+  "where": [
+   "CE44|Knight Hypno"
+  ]
+ },
+ "F13": {
+  "name": "Big Things Come in Small Packages",
+  "sw": 1127,
+  "swAll": [
+   1127
+  ],
+  "where": [
+   "Map468|Kim"
+  ]
+ },
+ "F14": {
+  "name": "Trojan Whore",
+  "sw": 1128,
+  "swAll": [
+   1128
+  ],
+  "where": [
+   "CE44|Knight Hypno"
+  ]
+ },
+ "F15": {
+  "name": "Near and Deer",
+  "sw": 1129,
+  "swAll": [
+   1129
+  ],
+  "where": [
+   "Map470|Auto 5"
+  ]
+ },
+ "F16": {
+  "name": "Jane Doe",
+  "sw": 1130,
+  "swAll": [
+   1130
+  ],
+  "where": [
+   "Map470|Auto 5"
+  ]
+ },
+ "F17": {
+  "name": "Gud Husbun make Gud Waife",
+  "sw": 1131,
+  "swAll": [
+   1131
+  ],
+  "where": [
+   "Map423|Auto"
+  ]
+ },
+ "F18": {
+  "name": "Royally Fucked",
+  "sw": 1132,
+  "swAll": [
+   1132
+  ],
+  "where": [
+   "Map469|Auto"
+  ]
+ },
+ "F19": {
+  "name": "It's a Bust",
+  "sw": 1133,
+  "swAll": [
+   1133
+  ],
+  "where": [
+   "Map429|Assistant Chat"
+  ]
+ },
+ "F20": {
+  "name": "A Rolling Stone Gathers No Moss",
+  "sw": 1134,
+  "swAll": [
+   1134
+  ],
+  "where": [
+   "Map427|Petrified 4 (Living)",
+   "Map427|Petrified 7 (Living)",
+   "Map427|Petrified 11 (Living)",
+   "Map427|Petrified 14"
+  ]
+ },
+ "F21": {
+  "name": "Pillar of the Community",
+  "sw": 1135,
+  "swAll": [
+   1135
+  ],
+  "where": [
+   "Map429|Assistant Fight"
+  ]
+ },
+ "F22": {
+  "name": "Magnum Opus",
+  "sw": 1136,
+  "swAll": [
+   1136
+  ],
+  "where": [
+   "Map429|Cellini Sculpting"
+  ]
+ },
+ "F23": {
+  "name": "Statuesque",
+  "sw": 1137,
+  "swAll": [
+   1137
+  ],
+  "where": [
+   "Map429|Cellini Sculpting"
+  ]
+ },
+ "F24": {
+  "name": "Love is Stone-Blind",
+  "sw": 1138,
+  "swAll": [
+   1138
+  ],
+  "where": [
+   "Map473|Auto"
+  ]
+ },
+ "F25": {
+  "name": "A Life in Chains Is No Life At All",
+  "sw": 1139,
+  "swAll": [
+   1139
+  ],
+  "where": [
+   "Map465|Human Princess End"
+  ]
+ },
+ "F26": {
+  "name": "The 'Short' Lived Princess",
+  "sw": 1140,
+  "swAll": [
+   1140
+  ],
+  "where": [
+   "Map465|Goblin Princess End"
+  ]
+ },
+ "F27": {
+  "name": "Long Live the Princess",
+  "sw": 1141,
+  "swAll": [
+   1141
+  ],
+  "where": [
+   "Map465|Human Princess End"
+  ]
+ },
+ "F28": {
+  "name": "Free Rein",
+  "sw": 1142,
+  "swAll": [
+   1142
+  ],
+  "where": [
+   "Map278|Horse End"
+  ]
+ },
+ "F29": {
+  "name": "Heartstrings",
+  "sw": 1143,
+  "swAll": [
+   1143
+  ],
+  "where": [
+   "Map297|Reylen End"
+  ]
+ },
+ "F30": {
+  "name": "Back Behind the Eight Ball",
+  "sw": 1144,
+  "swAll": [
+   1144
+  ],
+  "where": [
+   "Map299|Auto"
+  ]
+ },
+ "F31": {
+  "name": "The Redcap-et Treatment",
+  "sw": 1145,
+  "swAll": [
+   1145
+  ],
+  "where": [
+   "Map291|TF Stages"
+  ]
+ },
+ "F32": {
+  "name": "Drunk off the Atmosphere",
+  "sw": 1146,
+  "swAll": [
+   1146
+  ],
+  "where": [
+   "Map146|Satyr Auto"
+  ]
+ },
+ "F33": {
+  "name": "Temptation Given Flesh",
+  "sw": 1147,
+  "swAll": [
+   1147
+  ],
+  "where": [
+   "Map147|Baphomet End"
+  ]
+ },
+ "F34": {
+  "name": "Not Quite the Greatest Of All Time",
+  "sw": 1148,
+  "swAll": [
+   1148
+  ],
+  "where": [
+   "Map278|Jackie Goat"
+  ]
+ },
+ "F35": {
+  "name": "A Maiden's Work is Never Done",
+  "sw": 1149,
+  "swAll": [
+   1149
+  ],
+  "where": [
+   "Map310|Miko Time End"
+  ]
+ },
+ "F36": {
+  "name": "The Souless Legion",
+  "sw": 1150,
+  "swAll": [
+   1150
+  ],
+  "where": [
+   "Map290|Post Shrine Teleport EV"
+  ]
+ },
+ "F37": {
+  "name": "Caution to the Wind",
+  "sw": 1151,
+  "swAll": [
+   1151
+  ],
+  "where": [
+   "Map454|Kamai TF 5"
+  ]
+ },
+ "F38": {
+  "name": "Thank You for the Donation",
+  "sw": 1152,
+  "swAll": [
+   1152
+  ],
+  "where": [
+   "Map458|Kitsunera Auto End",
+   "Map458|Kitsunera Auto End",
+   "Map458|Kitsunera Auto End",
+   "Map458|Kitsunera Auto End"
+  ]
+ },
+ "F39": {
+  "name": "Peace of Mind",
+  "sw": 1153,
+  "swAll": [
+   1153
+  ],
+  "where": [
+   "Map458|Kitsunera 4 Auto"
+  ]
+ },
+ "F40": {
+  "name": "A Future Enshrined",
+  "sw": 1154,
+  "swAll": [
+   1154
+  ],
+  "where": [
+   "Map458|Yuuka Auto End"
+  ]
+ },
+ "F41": {
+  "name": "Woman of the Waters",
+  "sw": 1155,
+  "swAll": [
+   1155
+  ],
+  "where": [
+   "Map419|Onsen Milf Auto"
+  ]
+ },
+ "F42": {
+  "name": "Split Ends",
+  "sw": 1156,
+  "swAll": [
+   1156
+  ],
+  "where": [
+   "Map412|Keijouro"
+  ]
+ },
+ "F43": {
+  "name": "Bad Hair Day",
+  "sw": 1157,
+  "swAll": [
+   1157
+  ],
+  "where": [
+   "Map412|Miko Version Event"
+  ]
+ },
+ "F44": {
+  "name": "Bleed 'em Dry",
+  "sw": 1158,
+  "swAll": [
+   1158
+  ],
+  "where": [
+   "CE59|Karakasa TF End 2"
+  ]
+ },
+ "F45": {
+  "name": "Bearing One Another's Burdens",
+  "sw": 1159,
+  "swAll": [
+   1159
+  ],
+  "where": [
+   "Map464|Ubume End"
+  ]
+ },
+ "F46": {
+  "name": "Down on Your Luck",
+  "sw": 1160,
+  "swAll": [
+   1160
+  ],
+  "where": [
+   "Map249|Binbogami"
+  ]
+ },
+ "F47": {
+  "name": "The Model Wife",
+  "sw": 1161,
+  "swAll": [
+   1161
+  ],
+  "where": [
+   "Map471|Doll End Timer"
+  ]
+ },
+ "F48": {
+  "name": "Do I even need to say it?",
+  "sw": 1162,
+  "swAll": [
+   1162
+  ],
+  "where": [
+   "Map461|Auto 4"
+  ]
+ },
+ "F49": {
+  "name": "Married Above Her Station",
+  "sw": 1163,
+  "swAll": [
+   1163
+  ],
+  "where": [
+   "Map461|Auto 8"
+  ]
+ },
+ "F50": {
+  "name": "Let Them Eat Cake",
+  "sw": 1164,
+  "swAll": [
+   1164
+  ],
+  "where": [
+   "Map274|Bakery Event"
+  ]
+ },
+ "F51": {
+  "name": "A Baker's Trio",
+  "sw": 1165,
+  "swAll": [
+   1165
+  ],
+  "where": [
+   "Map274|Bakery Event"
+  ]
+ },
+ "F52": {
+  "name": "Beware the Big Bad Wolf",
+  "sw": 1166,
+  "swAll": [
+   1166
+  ],
+  "where": [
+   "Map463|Exit"
+  ]
+ },
+ "F53": {
+  "name": "A Wolf in Sheep's Clothing",
+  "sw": 1167,
+  "swAll": [
+   1167
+  ],
+  "where": [
+   "Map463|Fireplace"
+  ]
+ },
+ "F54": {
+  "name": "Worth her Weight in Gold",
+  "sw": 1168,
+  "swAll": [
+   1168
+  ],
+  "where": [
+   "Map483|Dawn Court Ends"
+  ]
+ },
+ "F55": {
+  "name": "Green With Envy, Gold With Wrath",
+  "sw": 1169,
+  "swAll": [
+   1169
+  ],
+  "where": [
+   "Map483|Door 2"
+  ]
+ },
+ "F56": {
+  "name": "Flat as a Tack",
+  "sw": 1170,
+  "swAll": [
+   1170
+  ],
+  "where": [
+   "Map483|Door 2"
+  ]
+ },
+ "F57": {
+  "name": "Stout-Hearted",
+  "sw": 1171,
+  "swAll": [
+   1171
+  ],
+  "where": [
+   "Map483|Leprechaun End"
+  ]
+ },
+ "F58": {
+  "name": "A Fairy Made",
+  "sw": 1172,
+  "swAll": [
+   1172
+  ],
+  "where": [
+   "Map481|Fae End"
+  ]
+ },
+ "F59": {
+  "name": "A Fairy, Laid",
+  "sw": 1173,
+  "swAll": [
+   1173
+  ],
+  "where": [
+   "Map481|Fae End"
+  ]
+ },
+ "F60": {
+  "name": "A Fairy's Aide",
+  "sw": 1174,
+  "swAll": [
+   1174
+  ],
+  "where": [
+   "Map481|Fae End"
+  ]
+ },
+ "F61": {
+  "name": "A Fairy Displayed",
+  "sw": 1175,
+  "swAll": [
+   1175
+  ],
+  "where": [
+   "Map481|Fae End"
+  ]
+ },
+ "F62": {
+  "name": "Two Can Play at that Game",
+  "sw": 1176,
+  "swAll": [
+   1176
+  ],
+  "where": [
+   "Map501|Auto Start"
+  ]
+ },
+ "F63": {
+  "name": "Stiff Competition",
+  "sw": 1177,
+  "swAll": [
+   1177
+  ],
+  "where": [
+   "Map478|Fairy Mount End"
+  ]
+ },
+ "F64": {
+  "name": "Nest Egg",
+  "sw": 1178,
+  "swAll": [
+   1178
+  ],
+  "where": [
+   "Map485|Egg End"
+  ]
+ },
+ "F65": {
+  "name": "Keep Harping On",
+  "sw": 1179,
+  "swAll": [
+   1179
+  ],
+  "where": [
+   "Map485|Hand Rush"
+  ]
+ },
+ "F66": {
+  "name": "Art Appreciation",
+  "sw": 1180,
+  "swAll": [
+   1180
+  ],
+  "where": [
+   "Map482|Twilight Court Ends"
+  ]
+ },
+ "F67": {
+  "name": "Sidhe's All That",
+  "sw": 1181,
+  "swAll": [
+   1181
+  ],
+  "where": [
+   "Map480|Leanan Sidhe End"
+  ]
+ },
+ "F68": {
+  "name": "T-HEEits and HAWss",
+  "sw": 1182,
+  "swAll": [
+   1182
+  ],
+  "where": [
+   "Map482|Twilight Court Ends"
+  ]
+ },
+ "F69": {
+  "name": "Front Row Seat to the Future",
+  "sw": 1183,
+  "swAll": [
+   1183
+  ],
+  "where": [
+   "Map489|Bad Ends"
+  ]
+ },
+ "F70": {
+  "name": "Cog in the Machine",
+  "sw": 1184,
+  "swAll": [
+   1184
+  ],
+  "where": [
+   "Map489|Bad Ends"
+  ]
+ },
+ "F71": {
+  "name": "Assimilation, Integration, Degradation",
+  "sw": 1185,
+  "swAll": [
+   1185
+  ],
+  "where": [
+   "Map489|Bad Ends"
+  ]
+ },
+ "F72": {
+  "name": "A New Elysium",
+  "sw": 1186,
+  "swAll": [
+   1186
+  ],
+  "where": [
+   "Map406|Suzu Succ Encounter"
+  ]
+ },
+ "F73": {
+  "name": "Okaerinasai",
+  "sw": 1187,
+  "swAll": [
+   1187
+  ],
+  "where": [
+   "Map500|Housewife End"
+  ]
+ },
+ "F74": {
+  "name": "Kneel Before Your Rod",
+  "sw": 1188,
+  "swAll": [
+   1188
+  ],
+  "where": [
+   "Map494|Waiting Spot"
+  ]
+ },
+ "F75": {
+  "name": "Hollowed Out",
+  "sw": 1189,
+  "swAll": [
+   1189
+  ],
+  "where": [
+   "Map495|Frog Caught Events"
+  ]
+ },
+ "F76": {
+  "name": "Running On Empty",
+  "sw": 1190,
+  "swAll": [
+   1190
+  ],
+  "where": [
+   "Map495|Husk Caught Events"
+  ]
+ },
+ "F77": {
+  "name": "A Waste of Breath",
+  "sw": 1191,
+  "swAll": [
+   1191
+  ],
+  "where": [
+   "Map495|Yama Fight"
+  ]
+ },
+ "F78": {
+  "name": "Taking Your Cut",
+  "sw": 1192,
+  "swAll": [
+   1192
+  ],
+  "where": [
+   "Map500|Yakuza End"
+  ]
+ },
+ "F79": {
+  "name": "The Art of Ikebana",
+  "sw": 1193,
+  "swAll": [
+   1193
+  ],
+  "where": [
+   "Map498|Meeting Caught"
+  ]
+ },
+ "F80": {
+  "name": "The Escort's Escort",
+  "sw": 1194,
+  "swAll": [
+   1194
+  ],
+  "where": [
+   "Map498|Dominic Save EV"
+  ]
+ },
+ "F81": {
+  "name": "Kiss the Hand that Feeds You",
+  "sw": 1195,
+  "swAll": [
+   1195
+  ],
+  "where": [
+   "Map500|Daimyo End"
+  ]
+ },
+ "F82": {
+  "name": "A Hungry Belly Has No Ears",
+  "sw": 1196,
+  "swAll": [
+   1196
+  ],
+  "where": [
+   "Map502|Sheathed Auto"
+  ]
+ },
+ "F83": {
+  "name": "Rearing Up",
+  "sw": 1197,
+  "swAll": [
+   1197
+  ],
+  "where": [
+   "Map279|Dom Merge End Auto"
+  ]
+ },
+ "F84": {
+  "name": "Bringing Up The Rear",
+  "sw": 1198,
+  "swAll": [
+   1198
+  ],
+  "where": [
+   "Map279|Dom Merge End Auto"
+  ]
+ },
+ "F85": {
+  "name": "Hometown Honey",
+  "sw": 1199,
+  "swAll": [
+   1199
+  ],
+  "where": [
+   "Map279|Honey End Auto"
+  ]
+ },
+ "F86": {
+  "name": "Experience is the Best Teacher",
+  "sw": 1200,
+  "swAll": [
+   1200
+  ],
+  "where": [
+   "Map496|Shaman End Auto"
+  ]
+ },
+ "F87": {
+  "name": "Suit Each Other to a T",
+  "sw": 1201,
+  "swAll": [
+   1201
+  ],
+  "where": [
+   "Map304|Mascot Suit End"
+  ]
+ },
+ "F88": {
+  "name": "Silence is Monochrome",
+  "sw": 1202,
+  "swAll": [
+   1202
+  ],
+  "where": [
+   "Map484|Mime End"
+  ]
+ },
+ "F89": {
+  "name": "A Magician Never Reveals His Secrets",
+  "sw": 1203,
+  "swAll": [
+   1203
+  ],
+  "where": [
+   "Map304|Circus Ends"
+  ]
+ },
+ "F90": {
+  "name": "Send in the Clowns",
+  "sw": 1204,
+  "swAll": [
+   1204
+  ],
+  "where": [
+   "Map302|Clown End"
+  ]
+ },
+ "F91": {
+  "name": "Paid in Exposure",
+  "sw": 1205,
+  "swAll": [
+   1205
+  ],
+  "where": [
+   "Map305|Cont End"
+  ]
+ },
+ "F92": {
+  "name": "A Good Marriage Is Like Clockwork",
+  "sw": 1206,
+  "swAll": [
+   1206
+  ],
+  "where": [
+   "Map427|Delta EV",
+   "Map427|Cockatrice Auto"
+  ]
+ }
+}

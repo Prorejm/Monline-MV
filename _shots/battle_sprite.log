@@ -1,0 +1,28 @@
+  ok    we reached the map
+--- the calls ---
+  {"cfg":{"MOVE_SPEED":12},"win":["function","function","function"],"gi":["function","function","function"],"ruby":[true,true,true]}
+  ok    the plugin reports its settings
+  ok    all three calls exist as globals
+  ok    all three calls exist on Game_Interpreter
+  ok    all three calls reach the Ruby bridge
+--- in battle ---
+  ok    a battle was started
+  ok    two enemy sprites are on screen
+  before {"n":2,"x":288,"y":280,"sx":1,"sy":1,"s1x":1}
+  ok    the sprites start un-zoomed
+  ok    position_enemy accepts the call
+  after position_enemy {"x":400,"y":300,"moving":false}
+  ok    the sprite glided to the absolute spot
+  ok    the move finished
+  ok    move_enemy accepts the call
+  after move_enemy {"x":400,"y":355}
+  ok    move_enemy shifted down 55 from where it was
+  ok    zoom_enemy_sprite(i, z) scales both axes
+  ok    zooming one enemy leaves the others alone
+  ok    zoom_enemy_sprite(i, zx, zy) scales the axes separately
+  ok    out-of-range indices are refused rather than throwing
+  ok    the Ruby bridge name drives the sprite too
+--- errors ---
+  ok    no page errors
+
+BATTLE SPRITE PROBE PASSED
