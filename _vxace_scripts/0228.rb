@@ -1,0 +1,180 @@
+#==============================================================================
+# +++ MOG - Event Text Popup (v1.1) +++
+#==============================================================================
+# By Moghunter
+# http://www.atelier-rgss.com
+#==============================================================================
+# Displays a text over the event.
+#==============================================================================
+# To activate, just put a comment with the prefix:
+#
+# <Text = X>
+#
+# X - Text presented at the event.
+#
+# Exemplo
+#
+# <Text = Teleport>
+# <Text = Save Point>
+#
+#==============================================================================
+module MOG_EVENT_TEXT_POPUP
+  #Definição da fonte.
+  FONT_SIZE = 16
+  FONT_BOLD = true
+  FONT_COLOR = Color.new(255,255,255)
+  #Setting Text Priority
+  SCREEN_Z = 300
+end  
+
+#==============================================================================
+# ■ Game CharacterBase
+#==============================================================================
+class Game_CharacterBase  
+  attr_accessor :text
+  attr_accessor :opacity
+  attr_accessor :erased
+end
+
+#==============================================================================
+# ■ Game Event
+#==============================================================================
+class Game_Event < Game_Character  
+  
+ #--------------------------------------------------------------------------
+ # ● Setup Page Setting
+ #--------------------------------------------------------------------------                     
+  alias mog_event_text_setup_page_settings setup_page_settings
+  def setup_page_settings
+      mog_event_text_setup_page_settings
+      setup_event_text
+  end
+    
+ #--------------------------------------------------------------------------
+ # ● Setup Event Text
+ #--------------------------------------------------------------------------                       
+  def setup_event_text
+      return if @list == nil
+      for command in @list
+      if command.code == 108
+         if command.parameters[0] =~ /<Text = ([^>]*)>/
+            @text = $1
+         end  
+       end
+      end 
+   end
+    
+end  
+
+#==============================================================================
+# ■ Sprite Character Text
+#==============================================================================
+class Sprite_Character_Text < Sprite_Base
+  
+  include MOG_EVENT_TEXT_POPUP
+  
+ #--------------------------------------------------------------------------
+ # ● Initialize
+ #--------------------------------------------------------------------------                     
+  def initialize(viewport = nil,character,sprite)
+      super(viewport)
+      text_size = character.text.to_s.split(//)
+      w = 32 + (FONT_SIZE / 2) * text_size.size rescue nil
+      w = 32 if w == nil or w < 32
+      self.bitmap = Bitmap.new(w,32)
+      self.bitmap.font.size = FONT_SIZE
+      self.bitmap.font.bold = FONT_BOLD
+      self.bitmap.font.color = FONT_COLOR
+      self.bitmap.draw_text(0,0,self.width,self.height,character.text.to_s,1) rescue nil
+      update_position(character,sprite) 
+  end
+  
+ #--------------------------------------------------------------------------
+ # ● Dispose
+ #--------------------------------------------------------------------------                     
+  def dispose
+      super
+      self.bitmap.dispose
+  end  
+ 
+ #--------------------------------------------------------------------------
+ # ● Update Position
+ #--------------------------------------------------------------------------                     
+  def update_position(character,sprite)
+      if character.erased
+         self.visible = false
+         return
+      end  
+      self.x = character.screen_x - self.width / 2
+      self.y = character.screen_y - (sprite.height + self.height)
+      self.z = character.screen_z + SCREEN_Z
+      self.visible = character.transparent == true ? false : true
+      self.opacity = character.opacity
+  end 
+  
+end
+
+#==============================================================================
+# ■ Sprite Character
+#==============================================================================
+class Sprite_Character < Sprite_Base
+
+ #--------------------------------------------------------------------------
+ # ● Initialize
+ #--------------------------------------------------------------------------                    
+  alias mog_event_text_initialize initialize
+  def initialize(viewport, character = nil)
+      mog_event_text_initialize(viewport, character)
+      @character_text = ""
+      create_event_text
+  end  
+  
+ #--------------------------------------------------------------------------
+ # ● Create Event Text
+ #--------------------------------------------------------------------------                     
+  def create_event_text
+      return if @character == nil
+      return if @character.text == nil
+      return if @character.text == @character_text
+      dispose_event_text
+      @event_text = Sprite_Character_Text.new(viewport,@character,self)
+      @character_text = @character.text
+  end
+
+ #--------------------------------------------------------------------------
+ # ● Dispose
+ #--------------------------------------------------------------------------                   
+  alias mog_event_text_dispose dispose
+  def dispose
+      mog_event_text_dispose
+      dispose_event_text
+  end  
+  
+ #--------------------------------------------------------------------------
+ # ● Dispose Event Text
+ #--------------------------------------------------------------------------                     
+  def dispose_event_text
+      return if @event_text == nil
+      @event_text.dispose ; @event_text = nil
+  end
+  
+ #--------------------------------------------------------------------------
+ # ● Update
+ #--------------------------------------------------------------------------                     
+  alias mog_event_text_update update
+  def update
+      mog_event_text_update
+      create_event_text ; update_event_text
+  end  
+  
+ #--------------------------------------------------------------------------
+ # ● Update Event Text
+ #--------------------------------------------------------------------------                     
+  def update_event_text
+      return if @event_text == nil
+      @event_text.update_position(@character,self)
+  end
+    
+end 
+
+$mog_rgss3_event_text_popup = true
