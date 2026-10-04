@@ -1,0 +1,426 @@
+{
+  "project": "G:\\新建文件夹 (22)\\Monline_MV\\mv_project",
+  "prefer": "vxace",
+  "scale_by_category": {
+    "tilesets": 1.5,
+    "characters": 1.5,
+    "faces": 1.5,
+    "enemies": 1.5,
+    "animations": 1.0,
+    "parallaxes": 1.5,
+    "pictures": 1.0,
+    "fogs": 1.0,
+    "titles1": 1.5,
+    "titles2": 1.5,
+    "battlebacks1": 1.5,
+    "battlebacks2": 1.5
+  },
+  "stats": {
+    "unresolved": 26,
+    "copied_scaled": 46
+  },
+  "by_source": {
+    "vxace": 46
+  },
+  "audio_ext_overrides": 0,
+  "unresolved": {
+    "pictures": [
+      "Beret1",
+      "Dullahan2",
+      "Echidna11",
+      "Echidna12",
+      "Echidna6",
+      "Echidna8",
+      "Lamia265",
+      "Lamia288",
+      "Nereid1",
+      "Pentagram1",
+      "Pentagram2",
+      "Pentagram3",
+      "Pentagram4",
+      "Pentagram5",
+      "Pentagram6",
+      "Pentagram7",
+      "Pentagram8",
+      "Pentagram9",
+      "PrincessMaid2148",
+      "PrincessMaid2149",
+      "PrincessMaid266",
+      "PrincessMaid271",
+      "PrincessMaid325",
+      "PrincessMaid48",
+      "Wurm2",
+      "Wurm8"
+    ]
+  },
+  "files": [
+    {
+      "cat": "battlebacks1",
+      "name": "Castle",
+      "from": "vxace",
+      "file": "Castle.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Castle.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Cobblestones1",
+      "from": "vxace",
+      "file": "Cobblestones1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Cobblestones1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Cobblestones2",
+      "from": "vxace",
+      "file": "Cobblestones2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Cobblestones2.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Cobblestones4",
+      "from": "vxace",
+      "file": "Cobblestones4.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Cobblestones4.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Desert",
+      "from": "vxace",
+      "file": "Desert.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Desert.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "DirtCave",
+      "from": "vxace",
+      "file": "DirtCave.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\DirtCave.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Factory1",
+      "from": "vxace",
+      "file": "Factory1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Factory1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "IceCave",
+      "from": "vxace",
+      "file": "IceCave.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\IceCave.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Meadow",
+      "from": "vxace",
+      "file": "Meadow.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Meadow.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Paved",
+      "from": "vxace",
+      "file": "Paved.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Paved.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Road1",
+      "from": "vxace",
+      "file": "Road1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Road1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "RockCave1",
+      "from": "vxace",
+      "file": "RockCave1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\RockCave1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Ruins2",
+      "from": "vxace",
+      "file": "Ruins2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Ruins2.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Ruins3",
+      "from": "vxace",
+      "file": "Ruins3.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Ruins3.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Sand",
+      "from": "vxace",
+      "file": "Sand.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Sand.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Ship",
+      "from": "vxace",
+      "file": "Ship.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Ship.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Stone1",
+      "from": "vxace",
+      "file": "Stone1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Stone1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Wasteland",
+      "from": "vxace",
+      "file": "Wasteland.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Wasteland.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Wood1",
+      "from": "vxace",
+      "file": "Wood1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Wood1.png"
+    },
+    {
+      "cat": "battlebacks1",
+      "name": "Wood2",
+      "from": "vxace",
+      "file": "Wood2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks1\\Wood2.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Bridge",
+      "from": "vxace",
+      "file": "Bridge.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Bridge.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Castle3",
+      "from": "vxace",
+      "file": "Castle3.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Castle3.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Cliff",
+      "from": "vxace",
+      "file": "Cliff.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Cliff.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Clouds",
+      "from": "vxace",
+      "file": "Clouds.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Clouds.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Crystal",
+      "from": "vxace",
+      "file": "Crystal.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Crystal.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "DemonCastle3",
+      "from": "vxace",
+      "file": "DemonCastle3.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\DemonCastle3.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "DirtCave",
+      "from": "vxace",
+      "file": "DirtCave.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\DirtCave.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Factory",
+      "from": "vxace",
+      "file": "Factory.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Factory.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Forest1",
+      "from": "vxace",
+      "file": "Forest1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Forest1.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Forest2",
+      "from": "vxace",
+      "file": "Forest2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Forest2.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Mine",
+      "from": "vxace",
+      "file": "Mine.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Mine.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "RockCave",
+      "from": "vxace",
+      "file": "RockCave.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\RockCave.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Room1",
+      "from": "vxace",
+      "file": "Room1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Room1.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Room2",
+      "from": "vxace",
+      "file": "Room2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Room2.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Room4",
+      "from": "vxace",
+      "file": "Room4.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Room4.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Ruins",
+      "from": "vxace",
+      "file": "Ruins.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Ruins.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Sea",
+      "from": "vxace",
+      "file": "Sea.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Sea.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Sky",
+      "from": "vxace",
+      "file": "Sky.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Sky.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Stone1",
+      "from": "vxace",
+      "file": "Stone1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Stone1.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Stone5",
+      "from": "vxace",
+      "file": "Stone5.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Stone5.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Temple",
+      "from": "vxace",
+      "file": "Temple.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Temple.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Tent",
+      "from": "vxace",
+      "file": "Tent.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Tent.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Tower",
+      "from": "vxace",
+      "file": "Tower.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Tower.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Town1",
+      "from": "vxace",
+      "file": "Town1.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Town1.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Town2",
+      "from": "vxace",
+      "file": "Town2.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Town2.png"
+    },
+    {
+      "cat": "battlebacks2",
+      "name": "Town3",
+      "from": "vxace",
+      "file": "Town3.png",
+      "scale": 1.5,
+      "src": "C:/Program Files (x86)/Common Files/Enterbrain/RGSS3/RPGVXAce\\Graphics\\Battlebacks2\\Town3.png"
+    }
+  ]
+}

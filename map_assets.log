@@ -1,0 +1,16 @@
+  Animations   -> img/animations   (scale=False)
+  Battlebacks1 -> img/battlebacks1 (scale=False)
+  Battlebacks2 -> img/battlebacks2 (scale=False)
+  Battlers     -> img/enemies      (scale=True)
+  Characters   -> img/characters   (scale=True)
+  Encyclopedia -> img/encyclopedia (scale=False)
+  Faces        -> img/faces        (scale=True)
+  Fogs         -> img/fogs         (scale=False)
+  Parallaxes   -> img/parallaxes   (scale=False)
+  Pictures     -> img/pictures     (scale=False)
+  System       -> img/system       (scale=False)
+  Tilesets     -> img/tilesets     (scale=True)
+  Titles1      -> img/titles1      (scale=False)
+  Weather      -> img/weather      (scale=False)
+
+Done. total=6229 scaled=1329 copied=4900
