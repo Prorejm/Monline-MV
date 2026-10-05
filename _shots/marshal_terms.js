@@ -110,8 +110,10 @@ function readValue() {
       return inner;
     }
     case 'u': {
-      readValue();                       // class symbol
-      return reg(readValue());           // wrapped value
+      const name = readValue();          // class symbol
+      const n = readInt();               // length of the raw payload
+      pos += n;                          // _dump output, not marshaled data
+      return reg({ __userdef: name });
     }
     case 'C': {
       readValue();                       // class symbol
@@ -167,3 +169,23 @@ const cmds = terms['@commands'];
 if (!Array.isArray(cmds)) { console.log('NO @commands'); process.exit(1); }
 console.log('\n== VX Ace terms.commands (' + cmds.length + ') ==');
 cmds.forEach((v, i) => console.log(String(i).padStart(2), JSON.stringify(v)));
+
+// compare the rest of the terms against the converted MV System.json
+const mv = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..',
+  'Monline-MV', 'data', 'System.json'), 'utf8'));
+for (const key of ['basic', 'params', 'etypes']) {
+  const ace = terms['@' + key];
+  const mvv = mv.terms[key];
+  console.log('\n== ' + key + ': ace ' + (ace ? ace.length : 'none') +
+              ' vs mv ' + (mvv ? mvv.length : 'none'));
+  if (!ace || !mvv) continue;
+  const n = Math.max(ace.length, mvv.length);
+  let diff = 0;
+  for (let i = 0; i < n; i++) {
+    const a = JSON.stringify(ace[i]), b = JSON.stringify(mvv[i]);
+    if (a !== b) { diff++; console.log('  ' + i + ' ace=' + a + '  mv=' + b); }
+  }
+  console.log('  differences: ' + diff);
+}
+
+console.log('Ace etypes: ' + JSON.stringify(terms['@etypes']));

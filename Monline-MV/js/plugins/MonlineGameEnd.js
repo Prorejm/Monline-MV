@@ -8,9 +8,9 @@
  * @author Monline port
  *
  * @param Shut Down Text
- * @desc Label of the Shut Down command.  VX Ace reads Vocab::shutdown; MV has
- * no such entry, so the wording is configurable.
- * @default Shut Down
+ * @desc Label of the Shut Down command.  Blank reads the project's own term,
+ * terms.commands[20], which is what VX Ace's Vocab::shutdown does - in Monline
+ * that is "Quit", and it carries icon 8899 in the icon table.
  *
  * @param Title Shut Down
  * @desc Offer Shut Down on the title screen, as 0086.rb does.
@@ -68,6 +68,11 @@
  *   Scene_GameEnd already does the same thing through setBackgroundOpacity(128),
  *   so nothing needs changing there.
  *
+ *   The wording is the project's own: 0000.rb:142 makes Vocab.shutdown read
+ *   terms.commands[20], and Monline's Database Terms has "Quit" there - so the
+ *   command reads "Quit" and picks up icon 8899 from the icon table, exactly as
+ *   it did in VX Ace.
+ *
  *   0086.rb Window_TitleCommand likewise lists New Game / Continue / Shut Down,
  *   and the cheat script 0263.rb rewrites that same method to read
  *   New Game / Continue / Passwords / Shut Down - MonlineCheatCodes.js already
@@ -102,8 +107,22 @@
     function str(k, d) { return P[k] === undefined || P[k] === '' ? d : String(P[k]); }
     function bool(k, d) { var v = P[k]; return v === undefined ? d : (v === 'true' || v === true); }
 
+    // 0000.rb:142 Vocab.shutdown is $data_system.terms.commands[20], so the
+    // label comes from the project's own Terms the way the original did.
+    function shutdownTerm() {
+        try {
+            return ($dataSystem && $dataSystem.terms &&
+                    $dataSystem.terms.commands[20]) || '';
+        } catch (e) { return ''; }
+    }
+
+    // Resolved on demand: plugins run before DataManager has read System.json.
+    var PARAM_LABEL = str('Shut Down Text', '');
+    function labelText() {
+        return PARAM_LABEL || shutdownTerm() || 'Shut Down';
+    }
+
     var CFG = {
-        label: str('Shut Down Text', 'Shut Down'),
         onTitle: bool('Title Shut Down', true),
         onGameEnd: bool('Game End Shut Down', true),
         confirm: bool('Confirm Shut Down', false),
@@ -229,7 +248,7 @@
     };
 
     Window_ShutDownConfirm.prototype.makeCommandList = function () {
-        this.addCommand(CFG.label, 'yes');
+        this.addCommand(labelText(), 'yes');
         this.addCommand(TextManager.cancel, 'cancel');
     };
 
@@ -289,7 +308,7 @@
                 if (list[i].symbol === 'cancel') { at = i; break; }
             }
             list.splice(at, 0, {
-                name: CFG.label, symbol: 'shutdown', enabled: true, ext: null
+                name: labelText(), symbol: 'shutdown', enabled: true, ext: null
             });
         };
 
@@ -319,7 +338,7 @@
                 if (list[n].symbol === 'shutdown') { return; }
             }
             list.push({
-                name: CFG.label, symbol: 'shutdown', enabled: true, ext: null
+                name: labelText(), symbol: 'shutdown', enabled: true, ext: null
             });
         };
 
@@ -342,7 +361,7 @@
     var api = {
         quit: function () { quit(SceneManager._scene); },
         request: function () { requestQuit(SceneManager._scene); },
-        label: CFG.label,
+        label: labelText(),
         overlay: showQuitOverlay,
         clearOverlay: removeOverlay
     };

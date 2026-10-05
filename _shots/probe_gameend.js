@@ -63,15 +63,24 @@ function ok(label, cond, detail) {
       hasHandler: typeof SceneManager._scene._handlers === 'object'
         ? true : (SceneManager._scene.commandShutdown !== undefined),
       hasCommandShutdown:
-        typeof Scene_Title.prototype.commandShutdown === 'function'
+        typeof Scene_Title.prototype.commandShutdown === 'function',
+      term: $dataSystem.terms.commands[20],
+      toTitle: TextManager.toTitle,
+      cancel: TextManager.cancel
     };
   });
+  ok('terms.commands[20] survived the conversion', title.term === 'Quit', title);
+  ok('TextManager.toTitle reads "To Title"', title.toTitle === 'To Title', title);
+  ok('TextManager.cancel reads "Cancel"', title.cancel === 'Cancel', title);
   ok('scene is Scene_Title', title.scene === 'Scene_Title', title.scene);
   ok('Shut Down is offered', title.list.some(c => c.s === 'shutdown'), title.list);
   ok('Shut Down is enabled',
       (title.list.find(c => c.s === 'shutdown') || {}).e === true, title.list);
-  ok('Shut Down label reads "Shut Down"',
-      (title.list.find(c => c.s === 'shutdown') || {}).n === 'Shut Down', title.list);
+  // 0000.rb:142 Vocab.shutdown = terms.commands[20]; Monline's Terms has
+  // "Quit" there, so that is what the command must read.
+  ok('Shut Down uses the project term',
+      (title.list.find(c => c.s === 'shutdown') || {}).n === title.term,
+      { got: (title.list.find(c => c.s === 'shutdown') || {}).n, want: title.term });
   ok('Shut Down comes last, as in 0086.rb',
       title.list[title.list.length - 1].s === 'shutdown', title.list);
   ok('the other commands survive',
@@ -99,6 +108,17 @@ function ok(label, cond, detail) {
   }
   ok('reached the map', await sceneName() === 'Scene_Map', await sceneName());
 
+  // Scene_Map.create() runs before start(), so the constructor name flips to
+  // Scene_Map a frame or two before _mapNameWindow exists; pushing a scene
+  // before that makes Scene_Map#stop throw.
+  for (let i = 0; i < 80; i++) {
+    const ready = await p.evaluate(() =>
+      SceneManager.isCurrentSceneStarted() &&
+      !!(SceneManager._scene && SceneManager._scene._mapNameWindow));
+    if (ready) break;
+    await sleep(120);
+  }
+
   await p.evaluate(() => { SceneManager.push(Scene_GameEnd); });
   for (let i = 0; i < 80; i++) {
     if (await sceneName() === 'Scene_GameEnd') break;
@@ -125,6 +145,9 @@ function ok(label, cond, detail) {
         JSON.stringify(['toTitle', 'shutdown', 'cancel']), ge.list);
   ok('Shut Down sits between To Title and Cancel', ge.list[1].s === 'shutdown',
       ge.list);
+  ok('To Title no longer reads "Cancel"', ge.list[0].n === 'To Title', ge.list);
+  ok('Shut Down reads the project term', ge.list[1].n === 'Quit', ge.list);
+  ok('Cancel still reads "Cancel"', ge.list[2].n === 'Cancel', ge.list);
   ok('height grew to fittingHeight(3) = 144', ge.height === 144, ge.height);
   ok('window stays centred', ge.centered, ge);
   ok('the shutdown handler is wired', ge.handlersSet, ge);
