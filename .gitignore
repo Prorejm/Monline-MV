@@ -1,3 +1,7 @@
 .workbuddy/
 **/save/
 Thumbs.db
+_shots/*.log
+_shots/_chunk.txt
+_shots/_done.txt
+_shots/_ge_*.js

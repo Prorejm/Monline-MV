@@ -52,5 +52,6 @@ var $plugins =
 {"name":"MonlineLoadout","status":true,"description":"Port of Scene_Loadout (0149/0150.rb): three saved gear sets, Save/Load commands on the equip screen","parameters":{"Loadout Variables":"204, 205, 206","Actor Variable":"207","Equip Slot Count":"5","Window X":"202","Window Y":"168","Background Opacity":"128","Save Command Text":"Save","Load Command Text":"Load"}},
 {"name":"MonlineGender","status":true,"description":"Port of Bubs Gender Functions (0153.rb): <gender:> notetags, male/female/genderless predicates and script calls","parameters":{"Default Actor Gender":"0","Default Enemy Gender":"0"}},
 {"name":"MonlineBattleSprite","status":true,"description":"Port of Hime Enemy Re-position (0238.rb) and Battle Sprite Zoom (0256.rb): move_enemy / position_enemy / zoom_enemy_sprite","parameters":{"Move Speed":"12"}},
-{"name":"MonlineBadEnds","status":true,"description":"Bad End roster (306 endings) and the Bad End collection gallery.","parameters":{}}
+{"name":"MonlineBadEnds","status":true,"description":"Bad End roster (306 endings) and the Bad End collection gallery.","parameters":{}},
+{"name":"MonlineGameEnd","status":true,"description":"Monline Game End scene: the Shut Down command missing from MV's Exit Game screen and title screen (0103.rb, 0087.rb, 0086.rb, 0091.rb).","parameters":{}}
 ];
